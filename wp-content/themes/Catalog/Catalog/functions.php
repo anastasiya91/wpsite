@@ -58,6 +58,15 @@ return $symbol;
 
 }
 //КОНЕЦ
+//
+
+add_filter('woocommerce_after_shop_loop_item', 'woo_custom_cart_button_text');
+
+function woo_custom_cart_button_text() {
+
+                    return __('В корзину', 'woocommerce');
+
+            }
 //end woocommerce_currencies
 global $pagenow;
 if(is_admin() && 'customize.php' == $pagenow){
@@ -174,6 +183,5 @@ function jquery_dataPicker()
 	 */
 	wp_enqueue_script( 'jQuery_ui_core', TEMPLATE_CHILD_DIRECTORY_URL.'js/jquery.ui.core.js');
 	wp_enqueue_script( 'jQuery_datepicker', TEMPLATE_CHILD_DIRECTORY_URL.'js/jquery.ui.datepicker.js');
-	wp_enqueue_style( 'jQuery_datepicker_css',TEMPLATE_CHILD_DIRECTORY_URL.'css/datepicker/jquery.ui.all.css');
-}
+	wp_enqueue_style( 'jQuery_datepicker_css',TEMPLATE_CHILD_DIRECTORY_URL.'css/datepicker/jquery.ui.all.css');}
 ?>

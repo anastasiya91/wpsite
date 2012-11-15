@@ -21,7 +21,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php wp_head(); // wp_head ?>
-	<?php /*<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.flexslider-min.js"></script>*/?>
+        <!--- Разкомментировала следующую строку --->
+	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.flexslider-min.js"></script>?>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/flexslider.css" type="text/css" media="screen" />
 </head>
 
@@ -42,17 +43,17 @@
 						<div class="menu">
 							<ul id="menu-primary-items" class="">
 								<li>
-									<a href="<?php echo home_url(); ?>"><?php _e('Home','templatic');?></a>
+									<a href="<?php echo home_url(); ?>"><?php _e('Главная','templatic');?></a>
 								</li>
 								<li>
-									<?php $about_page_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'About Us'");?>
-									<a href="<?php echo get_page_link($about_page_id);?>"><?php _e('About Us','templatic'); ?></a>
+									<?php $about_page_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'О нас'");?>
+									<a href="<?php echo get_page_link($about_page_id);?>"><?php _e('О нас','templatic'); ?></a>
 								</li>
 								<li>
-									<?php $primary_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'My Account'");?>
-									<a href="<?php echo get_page_link($primary_id);?>"><?php _e('My Account','templatic'); ?></a>
+									<?php $primary_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'Мой аккаунт'");?>
+									<a href="<?php echo get_page_link($primary_id);?>"><?php _e('Мой аккаунт','templatic'); ?></a>
 									<ul class="sub-menu">
-											<?php $primary_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'Профиль'");
+											<?php $primary_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'Мой аккаунт'");
 											wp_list_pages("title_li=&post_type=page&child_of=$primary_id");
 											//wp_list_pages();?>
 									</ul>

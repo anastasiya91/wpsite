@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: Rainbow WordPress Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-08 20:48+0700\n"
-"PO-Revision-Date: 2012-06-08 20:53+0700\n"
-"Last-Translator: Tung Do <contact@devpress.com>\n"
+"PO-Revision-Date: 2012-11-15 08:09+0200\n"
+"Last-Translator: Anastasia Pushkash <a.pushkash91@gmail.com>\n"
 "Language-Team: Templatic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_n\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: United States\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:30
@@ -21,7 +22,9 @@ msgstr ""
 
 #: 404.php:35
 #, php-format
-msgid "You tried going to %1$s, and it doesn't exist. All is not lost! You can search for what you're looking for."
+msgid ""
+"You tried going to %1$s, and it doesn't exist. All is not lost! You can "
+"search for what you're looking for."
 msgstr ""
 
 #: attachment.php:52
@@ -68,7 +71,9 @@ msgstr ""
 
 #: comments.php:51
 #, php-format
-msgid "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
+msgid ""
+"Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
 msgstr ""
 
 #: comments.php:57
@@ -77,14 +82,10 @@ msgstr ""
 
 #: comments.php:64
 msgid "Post Comment"
-msgstr ""
+msgstr "Опубликовать комментарий"
 
-#: content-aside.php:1
-#: content-gallery.php:8
-#: content-image.php:8
-#: content-link.php:2
-#: content-quote.php:2
-#: content-status.php:1
+#: content-aside.php:1 content-gallery.php:8 content-image.php:8
+#: content-link.php:2 content-quote.php:2 content-status.php:1
 msgid "Published by [entry-author] on [entry-published] [entry-permalink]"
 msgstr ""
 
@@ -220,25 +221,24 @@ msgstr ""
 msgid "Used on widgets only page template."
 msgstr ""
 
-#: index.php:38
-#: loop.php:24
+#: index.php:38 loop.php:24
 #, php-format
-msgid "Published by [entry-author] on [entry-published] [entry-comments-link zero=\"Respond\" one=\"%1$s\" more=\"%1$s\"] [entry-edit-link] [entry-permalink]"
+msgid ""
+"Published by [entry-author] on [entry-published] [entry-comments-link zero="
+"\"Respond\" one=\"%1$s\" more=\"%1$s\"] [entry-edit-link] [entry-permalink]"
 msgstr ""
 
-#: index.php:49
-#: loop.php:35
-msgid "Filed under: [entry-terms taxonomy=\"category\"] [entry-terms taxonomy=\"post_tag\" before=\"and Tagged: \"]"
+#: index.php:49 loop.php:35
+msgid ""
+"Filed under: [entry-terms taxonomy=\"category\"] [entry-terms taxonomy="
+"\"post_tag\" before=\"and Tagged: \"]"
 msgstr ""
 
-#: index.php:63
-#: loop.php:49
+#: index.php:63 loop.php:49
 msgid "No Entries"
 msgstr ""
 
-#: index.php:66
-#: loop-error.php:16
-#: loop.php:52
+#: index.php:66 loop-error.php:16 loop.php:52
 msgid "Apologies, but no entries were found."
 msgstr ""
 
@@ -271,14 +271,11 @@ msgstr ""
 msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
 msgstr ""
 
-#: loop-nav.php:23
-#: loop-nav.php:27
-#: loop-nav.php:29
+#: loop-nav.php:23 loop-nav.php:27 loop-nav.php:29
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr ""
 
-#: loop-nav.php:24
-#: loop-nav.php:27
+#: loop-nav.php:24 loop-nav.php:27
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
@@ -286,18 +283,17 @@ msgstr ""
 msgid "Next &rarr;"
 msgstr ""
 
-#: menu-header-horizontal.php:22
-#: menu-header-primary.php:22
-#: menu-header-secondary.php:22
-#: menu-primary.php:20
-#: menu-secondary.php:20
+#: menu-header-horizontal.php:22 menu-header-primary.php:22
+#: menu-header-secondary.php:22 menu-primary.php:20 menu-secondary.php:20
 #: menu-subsidiary.php:20
 msgid "Menu"
 msgstr ""
 
 #: post.php:38
 #, php-format
-msgid "[entry-author] [entry-published] [entry-comments-link zero=\"Respond\" one=\"%1$s\" more=\"%1$s\"] [entry-edit-link]"
+msgid ""
+"[entry-author] [entry-published] [entry-comments-link zero=\"Respond\" one="
+"\"%1$s\" more=\"%1$s\"] [entry-edit-link]"
 msgstr ""
 
 #: searchform.php:14
@@ -313,8 +309,7 @@ msgstr ""
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: taxonomy-topic-tag-edit.php:27
-#: taxonomy-topic-tag.php:30
+#: taxonomy-topic-tag-edit.php:27 taxonomy-topic-tag.php:30
 #, php-format
 msgid "Topic Tag: %s"
 msgstr ""
@@ -329,7 +324,9 @@ msgstr ""
 
 #: activity/comment.php:28
 #, php-format
-msgid "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\">%4$s</span></a>"
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
 msgstr ""
 
 #: activity/comment.php:39
@@ -517,7 +514,11 @@ msgid "Logo:"
 msgstr ""
 
 #: admin/functions-admin.php:71
-msgid "Upload image for logo. Once uploaded, click the Insert Into Post button. If that does not work, copy the address of the image and paste it in the input field above. Next, click on Save Settings buton at the bottom of this page. The image will automatically display here after settings are saved."
+msgid ""
+"Upload image for logo. Once uploaded, click the Insert Into Post button. If "
+"that does not work, copy the address of the image and paste it in the input "
+"field above. Next, click on Save Settings buton at the bottom of this page. "
+"The image will automatically display here after settings are saved."
 msgstr ""
 
 #: admin/functions-admin.php:85
@@ -541,7 +542,9 @@ msgid "Display Excerpts on search result pages."
 msgstr ""
 
 #: admin/functions-admin.php:109
-msgid "By default, the front/blog, archive pages, and search result page display the full post."
+msgid ""
+"By default, the front/blog, archive pages, and search result page display "
+"the full post."
 msgstr ""
 
 #: admin/functions-admin.php:116
@@ -557,11 +560,17 @@ msgid "Show search form under Header Secondary Menu"
 msgstr ""
 
 #: admin/functions-admin.php:128
-msgid "By default, search forms in the header are not displayed. Use this option to make them visible."
+msgid ""
+"By default, search forms in the header are not displayed. Use this option to "
+"make them visible."
 msgstr ""
 
 #: admin/functions-admin.php:129
-msgid "Primary Search is dependent on whether Header Primary Menu is active. If Header Primary Menu is not active, Primary Search will not show regardless of your setting. The same goes for Secondary Search and Header Secondary Menu."
+msgid ""
+"Primary Search is dependent on whether Header Primary Menu is active. If "
+"Header Primary Menu is not active, Primary Search will not show regardless "
+"of your setting. The same goes for Secondary Search and Header Secondary "
+"Menu."
 msgstr ""
 
 #: admin/functions-admin.php:136
@@ -577,93 +586,86 @@ msgid "Show On Pages:"
 msgstr ""
 
 #: admin/functions-admin.php:147
-msgid "This controls the display of the author biography box in the loop-entry-author.php file, which includes an avatar and biography (from your user profile page)."
+msgid ""
+"This controls the display of the author biography box in the loop-entry-"
+"author.php file, which includes an avatar and biography (from your user "
+"profile page)."
 msgstr ""
 
 #: admin/functions-admin.php:164
 msgid "Global Layout:"
 msgstr ""
 
-#: admin/functions-admin.php:168
-#: admin/functions-admin.php:209
+#: admin/functions-admin.php:168 admin/functions-admin.php:209
 #: admin/functions-admin.php:234
 msgid "layout_default"
 msgstr ""
 
-#: admin/functions-admin.php:169
-#: admin/functions-admin.php:210
+#: admin/functions-admin.php:169 admin/functions-admin.php:210
 #: admin/functions-admin.php:235
 msgid "layout_1c"
 msgstr ""
 
-#: admin/functions-admin.php:170
-#: admin/functions-admin.php:211
+#: admin/functions-admin.php:170 admin/functions-admin.php:211
 #: admin/functions-admin.php:236
 msgid "layout_2c_l"
 msgstr ""
 
-#: admin/functions-admin.php:171
-#: admin/functions-admin.php:212
+#: admin/functions-admin.php:171 admin/functions-admin.php:212
 #: admin/functions-admin.php:237
 msgid "layout_2c_r"
 msgstr ""
 
-#: admin/functions-admin.php:172
-#: admin/functions-admin.php:213
+#: admin/functions-admin.php:172 admin/functions-admin.php:213
 #: admin/functions-admin.php:238
 msgid "layout_3c_c"
 msgstr ""
 
-#: admin/functions-admin.php:173
-#: admin/functions-admin.php:214
+#: admin/functions-admin.php:173 admin/functions-admin.php:214
 #: admin/functions-admin.php:239
 msgid "layout_3c_l"
 msgstr ""
 
-#: admin/functions-admin.php:174
-#: admin/functions-admin.php:215
+#: admin/functions-admin.php:174 admin/functions-admin.php:215
 #: admin/functions-admin.php:240
 msgid "layout_3c_r"
 msgstr ""
 
-#: admin/functions-admin.php:175
-#: admin/functions-admin.php:216
+#: admin/functions-admin.php:175 admin/functions-admin.php:216
 #: admin/functions-admin.php:241
 msgid "layout_hl_1c"
 msgstr ""
 
-#: admin/functions-admin.php:176
-#: admin/functions-admin.php:217
+#: admin/functions-admin.php:176 admin/functions-admin.php:217
 #: admin/functions-admin.php:242
 msgid "layout_hl_2c_l"
 msgstr ""
 
-#: admin/functions-admin.php:177
-#: admin/functions-admin.php:218
+#: admin/functions-admin.php:177 admin/functions-admin.php:218
 #: admin/functions-admin.php:243
 msgid "layout_hl_2c_r"
 msgstr ""
 
-#: admin/functions-admin.php:178
-#: admin/functions-admin.php:219
+#: admin/functions-admin.php:178 admin/functions-admin.php:219
 #: admin/functions-admin.php:244
 msgid "layout_hr_1c"
 msgstr ""
 
-#: admin/functions-admin.php:179
-#: admin/functions-admin.php:220
+#: admin/functions-admin.php:179 admin/functions-admin.php:220
 #: admin/functions-admin.php:245
 msgid "layout_hr_2c_l"
 msgstr ""
 
-#: admin/functions-admin.php:180
-#: admin/functions-admin.php:221
+#: admin/functions-admin.php:180 admin/functions-admin.php:221
 #: admin/functions-admin.php:246
 msgid "layout_hr_2c_r"
 msgstr ""
 
 #: admin/functions-admin.php:182
-msgid "Set the layout for the entire site. The default layout is 2 columns with content on the left, therefore, layout_default and layout_2c_l will display the same layout."
+msgid ""
+"Set the layout for the entire site. The default layout is 2 columns with "
+"content on the left, therefore, layout_default and layout_2c_l will display "
+"the same layout."
 msgstr ""
 
 #: admin/functions-admin.php:184
@@ -727,7 +729,11 @@ msgid "bbPress Layout:"
 msgstr ""
 
 #: admin/functions-admin.php:223
-msgid "If bbPress (message board) is installed then use this option if you want to set a custom layout for all bbPress pages. For setting per forum or per topic layout, find the forum or topic to edit via the All Forums or All Topics management page, click on the Edit link, then set the custom layout."
+msgid ""
+"If bbPress (message board) is installed then use this option if you want to "
+"set a custom layout for all bbPress pages. For setting per forum or per "
+"topic layout, find the forum or topic to edit via the All Forums or All "
+"Topics management page, click on the Edit link, then set the custom layout."
 msgstr ""
 
 #: admin/functions-admin.php:230
@@ -735,7 +741,9 @@ msgid "BuddyPress Layout:"
 msgstr ""
 
 #: admin/functions-admin.php:248
-msgid "If BuddyPress (social networking) is installed then use this option if you want to set a custom layout for all BuddyPress pages."
+msgid ""
+"If BuddyPress (social networking) is installed then use this option if you "
+"want to set a custom layout for all BuddyPress pages."
 msgstr ""
 
 #: bbpress/content-single-topic-lead.php:42
@@ -801,11 +809,12 @@ msgid "Reply To: %s"
 msgstr ""
 
 #: bbpress/form-reply.php:29
-msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
 msgstr ""
 
-#: bbpress/form-reply.php:37
-#: bbpress/form-topic.php:53
+#: bbpress/form-reply.php:37 bbpress/form-topic.php:53
 msgid "Your account has the ability to post unrestricted HTML content."
 msgstr ""
 
@@ -813,44 +822,38 @@ msgstr ""
 msgid "Reply:"
 msgstr ""
 
-#: bbpress/form-reply.php:58
-#: bbpress/form-topic.php:85
-msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+#: bbpress/form-reply.php:58 bbpress/form-topic.php:85
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
 msgstr ""
 
 #: bbpress/form-reply.php:67
 msgid "Tags:"
 msgstr ""
 
-#: bbpress/form-reply.php:83
-#: bbpress/form-topic.php:138
+#: bbpress/form-reply.php:83 bbpress/form-topic.php:138
 msgid "Notify the author of follow-up replies via email"
 msgstr ""
 
-#: bbpress/form-reply.php:87
-#: bbpress/form-topic.php:142
+#: bbpress/form-reply.php:87 bbpress/form-topic.php:142
 msgid "Notify me of follow-up replies via email"
 msgstr ""
 
-#: bbpress/form-reply.php:101
-#: bbpress/form-topic.php:155
+#: bbpress/form-reply.php:101 bbpress/form-topic.php:155
 msgid "Revision"
 msgstr ""
 
-#: bbpress/form-reply.php:104
-#: bbpress/form-topic.php:158
+#: bbpress/form-reply.php:104 bbpress/form-topic.php:158
 msgid "Keep a log of this edit:"
 msgstr ""
 
-#: bbpress/form-reply.php:108
-#: bbpress/form-topic.php:162
+#: bbpress/form-reply.php:108 bbpress/form-topic.php:162
 msgid "Optional reason for editing:"
 msgstr ""
 
-#: bbpress/form-reply.php:126
-#: bbpress/form-topic-merge.php:78
-#: bbpress/form-topic-split.php:79
-#: bbpress/form-topic.php:176
+#: bbpress/form-reply.php:126 bbpress/form-topic-merge.php:78
+#: bbpress/form-topic-split.php:79 bbpress/form-topic.php:176
 msgid "Submit"
 msgstr ""
 
@@ -859,8 +862,7 @@ msgstr ""
 msgid "The topic &#8216;%s&#8217; is closed to new replies."
 msgstr ""
 
-#: bbpress/form-reply.php:156
-#: bbpress/form-topic.php:199
+#: bbpress/form-reply.php:156 bbpress/form-topic.php:199
 #, php-format
 msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
 msgstr ""
@@ -879,15 +881,23 @@ msgid "Merge topic \"%s\""
 msgstr ""
 
 #: bbpress/form-topic-merge.php:23
-msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
 msgstr ""
 
 #: bbpress/form-topic-merge.php:24
-msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
 msgstr ""
 
 #: bbpress/form-topic-merge.php:28
-msgid "All replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted. If the destination topic was created after this one, it's post date will be updated to second earlier than this one."
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
 msgstr ""
 
 #: bbpress/form-topic-merge.php:31
@@ -906,8 +916,7 @@ msgstr ""
 msgid "There are no other topics in this forum to merge with."
 msgstr ""
 
-#: bbpress/form-topic-merge.php:57
-#: bbpress/form-topic-split.php:58
+#: bbpress/form-topic-merge.php:57 bbpress/form-topic-split.php:58
 msgid "Topic Extras"
 msgstr ""
 
@@ -923,18 +932,15 @@ msgstr ""
 msgid "Merge topic tags"
 msgstr ""
 
-#: bbpress/form-topic-merge.php:74
-#: bbpress/form-topic-split.php:75
+#: bbpress/form-topic-merge.php:74 bbpress/form-topic-split.php:75
 msgid "<strong>WARNING:</strong> This process cannot be undone."
 msgstr ""
 
-#: bbpress/form-topic-merge.php:91
-#: bbpress/form-topic-split.php:93
+#: bbpress/form-topic-merge.php:91 bbpress/form-topic-split.php:93
 msgid "You do not have the permissions to edit this topic!"
 msgstr ""
 
-#: bbpress/form-topic-merge.php:91
-#: bbpress/form-topic-split.php:93
+#: bbpress/form-topic-merge.php:91 bbpress/form-topic-split.php:93
 msgid "You cannot edit this topic."
 msgstr ""
 
@@ -944,11 +950,17 @@ msgid "Split topic \"%s\""
 msgstr ""
 
 #: bbpress/form-topic-split.php:23
-msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
 msgstr ""
 
 #: bbpress/form-topic-split.php:27
-msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
 msgstr ""
 
 #: bbpress/form-topic-split.php:30
@@ -994,7 +1006,9 @@ msgid "Leave the slug empty to have one automatically generated."
 msgstr ""
 
 #: bbpress/form-topic-tag.php:27
-msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
 msgstr ""
 
 #: bbpress/form-topic-tag.php:33
@@ -1009,8 +1023,7 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: bbpress/form-topic-tag.php:57
-#: bbpress/form-topic-tag.php:71
+#: bbpress/form-topic-tag.php:57 bbpress/form-topic-tag.php:71
 msgid "Merge"
 msgstr ""
 
@@ -1024,7 +1037,8 @@ msgstr ""
 
 #: bbpress/form-topic-tag.php:72
 #, php-format
-msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
 msgstr ""
 
 #: bbpress/form-topic-tag.php:90
@@ -1041,7 +1055,9 @@ msgstr ""
 
 #: bbpress/form-topic-tag.php:102
 #, php-format
-msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
 msgstr ""
 
 #: bbpress/form-topic.php:33
@@ -1059,7 +1075,9 @@ msgid "Create New Topic"
 msgstr ""
 
 #: bbpress/form-topic.php:45
-msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
 msgstr ""
 
 #: bbpress/form-topic.php:67
@@ -1132,15 +1150,16 @@ msgid "Biographical Info"
 msgstr ""
 
 #: bbpress/form-user-edit.php:72
-msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
 msgstr ""
 
 #: bbpress/form-user-edit.php:77
 msgid "Account"
 msgstr ""
 
-#: bbpress/form-user-edit.php:82
-#: bbpress/form-user-login.php:17
+#: bbpress/form-user-edit.php:82 bbpress/form-user-login.php:17
 msgid "Username"
 msgstr ""
 
@@ -1154,7 +1173,9 @@ msgstr ""
 
 #: bbpress/form-user-edit.php:99
 #, php-format
-msgid "There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
 msgstr ""
 
 #: bbpress/form-user-edit.php:107
@@ -1162,7 +1183,9 @@ msgid "New Password"
 msgstr ""
 
 #: bbpress/form-user-edit.php:109
-msgid "If you would like to change the password, type a new one. Otherwise leave this blank."
+msgid ""
+"If you would like to change the password, type a new one. Otherwise leave "
+"this blank."
 msgstr ""
 
 #: bbpress/form-user-edit.php:113
@@ -1170,7 +1193,10 @@ msgid "Enter Password Again"
 msgstr ""
 
 #: bbpress/form-user-edit.php:119
-msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
 msgstr ""
 
 #: bbpress/form-user-edit.php:124
@@ -1193,8 +1219,7 @@ msgstr ""
 msgid "Update User"
 msgstr ""
 
-#: bbpress/form-user-login.php:14
-#: bbpress/form-user-login.php:33
+#: bbpress/form-user-login.php:14 bbpress/form-user-login.php:33
 msgid "Log In"
 msgstr ""
 
@@ -1227,7 +1252,9 @@ msgid "Your username must be unique, and cannot be changed later."
 msgstr ""
 
 #: bbpress/form-user-register.php:18
-msgid "We use your email address to email you a secure password and verify your account."
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
 msgstr ""
 
 #: bbpress/form-user-register.php:34
@@ -1238,13 +1265,11 @@ msgstr ""
 msgid "Topics:"
 msgstr ""
 
-#: bbpress/loop-single-forum.php:27
-#: bbpress/loop-single-topic.php:46
+#: bbpress/loop-single-forum.php:27 bbpress/loop-single-topic.php:46
 msgid "Replies:"
 msgstr ""
 
-#: bbpress/loop-single-forum.php:31
-#: bbpress/loop-single-topic.php:50
+#: bbpress/loop-single-forum.php:31 bbpress/loop-single-topic.php:50
 msgid "Freshness:"
 msgstr ""
 
@@ -1307,8 +1332,7 @@ msgstr ""
 msgid "Sorry, there were no sites found."
 msgstr ""
 
-#: blogs/create.php:28
-#: blogs/index.php:29
+#: blogs/create.php:28 blogs/index.php:29
 msgid "Create a Site"
 msgstr ""
 
@@ -1375,8 +1399,7 @@ msgstr ""
 msgid "Forums Directory"
 msgstr ""
 
-#: forums/index.php:30
-#: groups/single/forum.php:32
+#: forums/index.php:30 groups/single/forum.php:32
 msgid "New Topic"
 msgstr ""
 
@@ -1390,13 +1413,11 @@ msgstr ""
 msgid "My Topics <span>%s</span>"
 msgstr ""
 
-#: forums/index.php:71
-#: groups/single/forum.php:52
+#: forums/index.php:71 groups/single/forum.php:52
 msgid "Most Posts"
 msgstr ""
 
-#: forums/index.php:72
-#: groups/single/forum.php:53
+#: forums/index.php:72 groups/single/forum.php:53
 msgid "Unreplied"
 msgstr ""
 
@@ -1404,20 +1425,17 @@ msgstr ""
 msgid "Create New Topic:"
 msgstr ""
 
-#: forums/index.php:115
-#: groups/single/forum.php:89
+#: forums/index.php:115 groups/single/forum.php:89
 #: groups/single/forum/edit.php:60
 msgid "Title:"
 msgstr ""
 
-#: forums/index.php:120
-#: groups/single/forum.php:94
+#: forums/index.php:120 groups/single/forum.php:94
 #: groups/single/forum/edit.php:65
 msgid "Content:"
 msgstr ""
 
-#: forums/index.php:125
-#: groups/single/forum.php:99
+#: forums/index.php:125 groups/single/forum.php:99
 #: groups/single/forum/edit.php:70
 msgid "Tags (comma separated):"
 msgstr ""
@@ -1430,8 +1448,7 @@ msgstr ""
 msgid "----"
 msgstr ""
 
-#: forums/index.php:151
-#: groups/single/forum.php:106
+#: forums/index.php:151 groups/single/forum.php:106
 msgid "Post Topic"
 msgstr ""
 
@@ -1441,130 +1458,117 @@ msgstr ""
 
 #: forums/index.php:165
 #, php-format
-msgid "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum."
+msgid ""
+"You are not a member of any groups so you don't have any group forums you "
+"can post in. To start posting, first find a group that matches the topic "
+"subject you'd like to start. If this group does not exist, why not <a "
+"href='%s'>create a new group</a>? Once you have joined or created the group "
+"you can post your topic in that group's forum."
 msgstr ""
 
-#: groups/create.php:28
-#: groups/index.php:30
+#: groups/create.php:28 groups/index.php:30
 msgid "Create a Group"
 msgstr ""
 
-#: groups/create.php:28
-#: groups/index.php:30
+#: groups/create.php:28 groups/index.php:30
 msgid "Groups Directory"
 msgstr ""
 
-#: groups/create.php:52
-#: groups/single/admin.php:30
+#: groups/create.php:52 groups/single/admin.php:30
 msgid "Group Name (required)"
 msgstr ""
 
-#: groups/create.php:57
-#: groups/single/admin.php:35
+#: groups/create.php:57 groups/single/admin.php:35
 msgid "Group Description (required)"
 msgstr ""
 
-#: groups/create.php:82
-#: groups/single/admin.php:68
+#: groups/create.php:82 groups/single/admin.php:68
 msgid "Enable discussion forum"
 msgstr ""
 
 #: groups/create.php:89
 #, php-format
-msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
 msgstr ""
 
-#: groups/create.php:96
-#: groups/single/admin.php:75
+#: groups/create.php:96 groups/single/admin.php:75
 msgid "Privacy Options"
 msgstr ""
 
-#: groups/create.php:100
-#: groups/single/admin.php:78
+#: groups/create.php:100 groups/single/admin.php:78
 msgid "This is a public group"
 msgstr ""
 
-#: groups/create.php:105
-#: groups/single/admin.php:82
+#: groups/create.php:105 groups/single/admin.php:82
 msgid "Any site member can join this group."
 msgstr ""
 
-#: groups/create.php:106
-#: groups/create.php:118
-#: groups/single/admin.php:83
+#: groups/create.php:106 groups/create.php:118 groups/single/admin.php:83
 #: groups/single/admin.php:97
-msgid "This group will be listed in the groups directory and in search results."
+msgid ""
+"This group will be listed in the groups directory and in search results."
 msgstr ""
 
-#: groups/create.php:107
-#: groups/single/admin.php:84
+#: groups/create.php:107 groups/single/admin.php:84
 msgid "Group content and activity will be visible to any site member."
 msgstr ""
 
-#: groups/create.php:112
-#: groups/single/admin.php:90
+#: groups/create.php:112 groups/single/admin.php:90
 msgid "This is a private group"
 msgstr ""
 
-#: groups/create.php:117
-#: groups/single/admin.php:96
+#: groups/create.php:117 groups/single/admin.php:96
 msgid "Only users who request membership and are accepted can join the group."
 msgstr ""
 
-#: groups/create.php:119
-#: groups/create.php:130
-#: groups/single/admin.php:98
+#: groups/create.php:119 groups/create.php:130 groups/single/admin.php:98
 #: groups/single/admin.php:111
-msgid "Group content and activity will only be visible to members of the group."
+msgid ""
+"Group content and activity will only be visible to members of the group."
 msgstr ""
 
-#: groups/create.php:123
-#: groups/single/admin.php:104
+#: groups/create.php:123 groups/single/admin.php:104
 msgid "This is a hidden group"
 msgstr ""
 
-#: groups/create.php:128
-#: groups/single/admin.php:109
+#: groups/create.php:128 groups/single/admin.php:109
 msgid "Only users who are invited can join the group."
 msgstr ""
 
-#: groups/create.php:129
-#: groups/single/admin.php:110
-msgid "This group will not be listed in the groups directory or search results."
+#: groups/create.php:129 groups/single/admin.php:110
+msgid ""
+"This group will not be listed in the groups directory or search results."
 msgstr ""
 
-#: groups/create.php:133
-#: groups/single/admin.php:114
+#: groups/create.php:133 groups/single/admin.php:114
 msgid "Group Invitations"
 msgstr ""
 
-#: groups/create.php:135
-#: groups/single/admin.php:116
+#: groups/create.php:135 groups/single/admin.php:116
 msgid "Which members of this group are allowed to invite others?"
 msgstr ""
 
-#: groups/create.php:140
-#: groups/single/admin.php:121
+#: groups/create.php:140 groups/single/admin.php:121
 msgid "All group members"
 msgstr ""
 
-#: groups/create.php:145
-#: groups/single/admin.php:126
+#: groups/create.php:145 groups/single/admin.php:126
 msgid "Group admins and mods only"
 msgstr ""
 
-#: groups/create.php:150
-#: groups/single/admin.php:131
+#: groups/create.php:150 groups/single/admin.php:131
 msgid "Group admins only"
 msgstr ""
 
-#: groups/create.php:178
-#: groups/single/admin.php:151
-msgid "Upload an image to use as an avatar for this group. The image will be shown on the main group page, and in search results."
+#: groups/create.php:178 groups/single/admin.php:151
+msgid ""
+"Upload an image to use as an avatar for this group. The image will be shown "
+"on the main group page, and in search results."
 msgstr ""
 
-#: groups/create.php:182
-#: groups/single/admin.php:155
+#: groups/create.php:182 groups/single/admin.php:155
 msgid "Upload Image"
 msgstr ""
 
@@ -1576,34 +1580,31 @@ msgstr ""
 msgid "Crop Group Avatar"
 msgstr ""
 
-#: groups/create.php:196
-#: groups/single/admin.php:177
+#: groups/create.php:196 groups/single/admin.php:177
 msgid "Avatar to crop"
 msgstr ""
 
-#: groups/create.php:199
-#: groups/single/admin.php:180
+#: groups/create.php:199 groups/single/admin.php:180
 msgid "Avatar preview"
 msgstr ""
 
-#: groups/create.php:203
-#: groups/single/admin.php:184
+#: groups/create.php:203 groups/single/admin.php:184
 msgid "Crop Image"
 msgstr ""
 
-#: groups/create.php:242
-#: groups/single/send-invites.php:30
+#: groups/create.php:242 groups/single/send-invites.php:30
 msgid "Select people to invite from your friends list."
 msgstr ""
 
-#: groups/create.php:263
-#: groups/single/send-invites.php:50
+#: groups/create.php:263 groups/single/send-invites.php:50
 msgid "Remove Invite"
 msgstr ""
 
-#: groups/create.php:281
-#: groups/single/send-invites.php:81
-msgid "Once you have built up friend connections you will be able to invite others to your group. You can send invites any time in the future by selecting the \"Send Invites\" option when viewing your new group."
+#: groups/create.php:281 groups/single/send-invites.php:81
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group. You can send invites any time in the future by selecting the "
+"\"Send Invites\" option when viewing your new group."
 msgstr ""
 
 #: groups/create.php:303
@@ -1622,8 +1623,7 @@ msgstr ""
 msgid "Finish"
 msgstr ""
 
-#: groups/groups-loop.php:44
-#: groups/single/group-header.php:25
+#: groups/groups-loop.php:44 groups/single/group-header.php:25
 #, php-format
 msgid "active %s"
 msgstr ""
@@ -1657,15 +1657,15 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: groups/single/admin.php:49
-#: groups/single/admin.php:137
-#: groups/single/forum/edit.php:77
-#: groups/single/forum/edit.php:101
+#: groups/single/admin.php:49 groups/single/admin.php:137
+#: groups/single/forum/edit.php:77 groups/single/forum/edit.php:101
 msgid "Save Changes"
 msgstr ""
 
 #: groups/single/admin.php:161
-msgid "If you'd like to remove the existing avatar but not upload a new one, please use the delete avatar button."
+msgid ""
+"If you'd like to remove the existing avatar but not upload a new one, please "
+"use the delete avatar button."
 msgstr ""
 
 #: groups/single/admin.php:163
@@ -1680,14 +1680,12 @@ msgstr ""
 msgid "Administrators"
 msgstr ""
 
-#: groups/single/admin.php:222
-#: groups/single/admin.php:255
+#: groups/single/admin.php:222 groups/single/admin.php:255
 #, php-format
 msgid "Profile picture of %s"
 msgstr ""
 
-#: groups/single/admin.php:230
-#: groups/single/admin.php:264
+#: groups/single/admin.php:230 groups/single/admin.php:264
 msgid "Demote to Member"
 msgstr ""
 
@@ -1695,8 +1693,7 @@ msgstr ""
 msgid "Moderators"
 msgstr ""
 
-#: groups/single/admin.php:263
-#: groups/single/admin.php:327
+#: groups/single/admin.php:263 groups/single/admin.php:327
 msgid "Promote to Admin"
 msgstr ""
 
@@ -1736,8 +1733,7 @@ msgstr ""
 msgid "Remove from group"
 msgstr ""
 
-#: groups/single/admin.php:345
-#: groups/single/members.php:100
+#: groups/single/admin.php:345 groups/single/members.php:100
 msgid "This group has no members."
 msgstr ""
 
@@ -1754,7 +1750,9 @@ msgid "There are no pending membership requests."
 msgstr ""
 
 #: groups/single/admin.php:411
-msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
 msgstr ""
 
 #: groups/single/admin.php:416
@@ -1765,8 +1763,7 @@ msgstr ""
 msgid "Delete Group"
 msgstr ""
 
-#: groups/single/forum.php:40
-#: groups/single/forum/edit.php:27
+#: groups/single/forum.php:40 groups/single/forum/edit.php:27
 #: groups/single/forum/topic.php:31
 msgid "Forum Directory"
 msgstr ""
@@ -1900,11 +1897,13 @@ msgid "Footer settings"
 msgstr ""
 
 #: library/admin/meta-box-theme-footer.php:52
-msgid "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</acronym> and/or shortcodes, which will be automatically inserted into your theme."
+msgid ""
+"You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
+"acronym> and/or shortcodes, which will be automatically inserted into your "
+"theme."
 msgstr ""
 
-#: library/admin/theme-settings.php:47
-#: library/admin/theme-settings.php:168
+#: library/admin/theme-settings.php:47 library/admin/theme-settings.php:168
 #, php-format
 msgid "%1$s Theme Settings"
 msgstr ""
@@ -1926,7 +1925,9 @@ msgid "Support"
 msgstr ""
 
 #: library/classes/widget-archives.php:32
-msgid "An advanced widget that gives you total control over the output of your archives."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"archives."
 msgstr ""
 
 #: library/classes/widget-archives.php:79
@@ -1987,7 +1988,9 @@ msgid "Show post count?"
 msgstr ""
 
 #: library/classes/widget-authors.php:32
-msgid "An advanced widget that gives you total control over the output of your author lists."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"author lists."
 msgstr ""
 
 #: library/classes/widget-authors.php:44
@@ -1999,8 +2002,7 @@ msgstr ""
 #: library/classes/widget-bookmarks.php:171
 #: library/classes/widget-bookmarks.php:173
 #: library/classes/widget-categories.php:160
-#: library/classes/widget-pages.php:155
-#: library/classes/widget-tags.php:172
+#: library/classes/widget-pages.php:155 library/classes/widget-tags.php:172
 msgid "Ascending"
 msgstr ""
 
@@ -2008,8 +2010,7 @@ msgstr ""
 #: library/classes/widget-bookmarks.php:171
 #: library/classes/widget-bookmarks.php:173
 #: library/classes/widget-categories.php:160
-#: library/classes/widget-pages.php:155
-#: library/classes/widget-tags.php:172
+#: library/classes/widget-pages.php:155 library/classes/widget-tags.php:172
 msgid "Descending"
 msgstr ""
 
@@ -2076,7 +2077,9 @@ msgid "Hide empty?"
 msgstr ""
 
 #: library/classes/widget-bookmarks.php:32
-msgid "An advanced widget that gives you total control over the output of your bookmarks (links)."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"bookmarks (links)."
 msgstr ""
 
 #: library/classes/widget-bookmarks.php:44
@@ -2167,7 +2170,9 @@ msgid "Show private?"
 msgstr ""
 
 #: library/classes/widget-calendar.php:32
-msgid "An advanced widget that gives you total control over the output of your calendar."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"calendar."
 msgstr ""
 
 #: library/classes/widget-calendar.php:44
@@ -2180,7 +2185,9 @@ msgid "One-letter abbreviation?"
 msgstr ""
 
 #: library/classes/widget-categories.php:32
-msgid "An advanced widget that gives you total control over the output of your category links."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"category links."
 msgstr ""
 
 #: library/classes/widget-categories.php:44
@@ -2218,7 +2225,9 @@ msgid "Show count?"
 msgstr ""
 
 #: library/classes/widget-nav-menu.php:32
-msgid "An advanced widget that gives you total control over the output of your menus."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"menus."
 msgstr ""
 
 #: library/classes/widget-nav-menu.php:44
@@ -2230,11 +2239,12 @@ msgid "Navigation"
 msgstr ""
 
 #: library/classes/widget-pages.php:32
-msgid "An advanced widget that gives you total control over the output of your page links."
+msgid ""
+"An advanced widget that gives you total control over the output of your page "
+"links."
 msgstr ""
 
-#: library/classes/widget-pages.php:44
-#: library/classes/widget-pages.php:127
+#: library/classes/widget-pages.php:44 library/classes/widget-pages.php:127
 msgid "Pages"
 msgstr ""
 
@@ -2250,8 +2260,7 @@ msgstr ""
 msgid "Menu Order"
 msgstr ""
 
-#: library/classes/widget-pages.php:156
-#: library/classes/widget-pages.php:157
+#: library/classes/widget-pages.php:156 library/classes/widget-pages.php:157
 msgid "Modified"
 msgstr ""
 
@@ -2264,7 +2273,9 @@ msgid "Created"
 msgstr ""
 
 #: library/classes/widget-search.php:33
-msgid "An advanced widget that gives you total control over the output of your search form."
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"search form."
 msgstr ""
 
 #: library/classes/widget-search.php:147
@@ -2284,11 +2295,11 @@ msgid "Use theme's <code>searchform.php</code>?"
 msgstr ""
 
 #: library/classes/widget-tags.php:32
-msgid "An advanced widget that gives you total control over the output of your tags."
+msgid ""
+"An advanced widget that gives you total control over the output of your tags."
 msgstr ""
 
-#: library/classes/widget-tags.php:44
-#: library/classes/widget-tags.php:141
+#: library/classes/widget-tags.php:44 library/classes/widget-tags.php:141
 msgid "Tags"
 msgstr ""
 
@@ -2310,7 +2321,7 @@ msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:45
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: library/extensions/breadcrumb-trail.php:296
 #: library/functions/context.php:419
@@ -2337,8 +2348,7 @@ msgstr ""
 #: library/extensions/breadcrumb-trail.php:324
 #: library/extensions/breadcrumb-trail.php:329
 #: library/extensions/breadcrumb-trail.php:516
-#: library/functions/context.php:431
-#: library/functions/context.php:437
+#: library/functions/context.php:431 library/functions/context.php:437
 #: library/functions/core-seo.php:90
 msgid "Y"
 msgstr ""
@@ -2414,7 +2424,9 @@ msgstr ""
 
 #: library/functions/comments.php:196
 #, php-format
-msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgid ""
+"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+"comment."
 msgstr ""
 
 #: library/functions/comments.php:197
@@ -2443,10 +2455,8 @@ msgstr ""
 msgid "Click here to cancel reply."
 msgstr ""
 
-#: library/functions/context.php:419
-#: library/functions/context.php:425
-#: library/functions/context.php:428
-#: library/functions/context.php:434
+#: library/functions/context.php:419 library/functions/context.php:425
+#: library/functions/context.php:428 library/functions/context.php:434
 #: library/functions/context.php:437
 #, php-format
 msgid "Archive for %1$s"
@@ -2482,11 +2492,12 @@ msgstr ""
 
 #: library/functions/deprecated.php:572
 #, php-format
-msgid "<code>%1$s</code> &mdash; This function has been removed or replaced by another function."
+msgid ""
+"<code>%1$s</code> &mdash; This function has been removed or replaced by "
+"another function."
 msgstr ""
 
-#: library/functions/settings.php:76
-#: library/functions/settings.php:80
+#: library/functions/settings.php:76 library/functions/settings.php:80
 msgid "Copyright &#169; [the-year] [site-link]."
 msgstr ""
 
@@ -2524,8 +2535,7 @@ msgstr ""
 msgid "This page loaded in %1$s seconds with %2$s database queries."
 msgstr ""
 
-#: library/functions/shortcodes.php:204
-#: library/functions/shortcodes.php:443
+#: library/functions/shortcodes.php:204 library/functions/shortcodes.php:443
 #, php-format
 msgid "Edit %1$s"
 msgstr ""
@@ -2544,8 +2554,7 @@ msgstr ""
 msgid "%1$s Responses"
 msgstr ""
 
-#: library/functions/shortcodes.php:241
-#: library/functions/shortcodes.php:243
+#: library/functions/shortcodes.php:241 library/functions/shortcodes.php:243
 #: library/functions/shortcodes.php:245
 #, php-format
 msgid "Comment on %1$s"
@@ -2573,7 +2582,9 @@ msgid "The main (primary) widget area, most often used as a sidebar."
 msgstr ""
 
 #: library/functions/sidebars.php:86
-msgid "The second most important widget area, most often used as a secondary sidebar."
+msgid ""
+"The second most important widget area, most often used as a secondary "
+"sidebar."
 msgstr ""
 
 #: library/functions/sidebars.php:90
@@ -2593,15 +2604,16 @@ msgid "Loaded after the page's main content area."
 msgstr ""
 
 #: library/functions/sidebars.php:106
-msgid "Loaded on singular post (page, attachment, etc.) views before the comments area."
+msgid ""
+"Loaded on singular post (page, attachment, etc.) views before the comments "
+"area."
 msgstr ""
 
 #: members/index.php:30
 msgid "Members Directory"
 msgstr ""
 
-#: members/index.php:69
-#: members/single/friends.php:23
+#: members/index.php:69 members/single/friends.php:23
 msgid "Newest Registered"
 msgstr ""
 
@@ -2694,15 +2706,23 @@ msgid "Change Avatar"
 msgstr ""
 
 #: members/single/profile/change-avatar.php:22
-msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
+msgid ""
+"Your avatar will be used on your profile and throughout the site. If there "
+"is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
 msgstr ""
 
 #: members/single/profile/change-avatar.php:29
-msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
 msgstr ""
 
 #: members/single/profile/change-avatar.php:38
-msgid "If you'd like to delete your current avatar but not upload a new one, please use the delete avatar button."
+msgid ""
+"If you'd like to delete your current avatar but not upload a new one, please "
+"use the delete avatar button."
 msgstr ""
 
 #: members/single/profile/change-avatar.php:39
@@ -2714,7 +2734,11 @@ msgid "Crop Your New Avatar"
 msgstr ""
 
 #: members/single/profile/change-avatar.php:76
-msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
+msgid ""
+"Your avatar will be used on your profile and throughout the site. To change "
+"your avatar, please create an account with <a href=\"http://gravatar.com"
+"\">Gravatar</a> using the same email address as you used to register with "
+"this site."
 msgstr ""
 
 #: members/single/profile/edit.php:23
@@ -2722,18 +2746,14 @@ msgstr ""
 msgid "Editing '%s' Profile Group"
 msgstr ""
 
-#: members/single/profile/edit.php:38
-#: members/single/profile/edit.php:48
-#: members/single/profile/edit.php:58
-#: members/single/profile/edit.php:70
-#: members/single/profile/edit.php:92
-#: members/single/profile/edit.php:110
+#: members/single/profile/edit.php:38 members/single/profile/edit.php:48
+#: members/single/profile/edit.php:58 members/single/profile/edit.php:70
+#: members/single/profile/edit.php:92 members/single/profile/edit.php:110
 #: members/single/profile/edit.php:122
 msgid "(required)"
 msgstr ""
 
-#: members/single/profile/edit.php:80
-#: members/single/profile/edit.php:98
+#: members/single/profile/edit.php:80 members/single/profile/edit.php:98
 msgid "Clear"
 msgstr ""
 
@@ -2763,7 +2783,9 @@ msgid "Delete Account"
 msgstr ""
 
 #: members/single/settings/delete-account.php:58
-msgid "WARNING: Deleting your account will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgid ""
+"WARNING: Deleting your account will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
 msgstr ""
 
 #: members/single/settings/delete-account.php:63
@@ -2772,14 +2794,16 @@ msgstr ""
 
 #: members/single/settings/delete-account.php:69
 msgid "Delete My Account"
-msgstr ""
+msgstr "Удалить мой аккаунт"
 
 #: members/single/settings/general.php:54
 msgid "General Settings"
 msgstr ""
 
 #: members/single/settings/general.php:61
-msgid "Current Password <span>(required to update email or change current password)</span>"
+msgid ""
+"Current Password <span>(required to update email or change current password)"
+"</span>"
 msgstr ""
 
 #: members/single/settings/general.php:65
@@ -2815,11 +2839,15 @@ msgid "Account Activated"
 msgstr ""
 
 #: registration/activate.php:40
-msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
 msgstr ""
 
 #: registration/activate.php:42
-msgid "Your account was activated successfully! You can now log in with the username and password you provided when you signed up."
+msgid ""
+"Your account was activated successfully! You can now log in with the "
+"username and password you provided when you signed up."
 msgstr ""
 
 #: registration/activate.php:49
@@ -2847,7 +2875,9 @@ msgid "User registration is currently not allowed."
 msgstr ""
 
 #: registration/register.php:57
-msgid "Registering for this site is easy, just fill in the fields below and we'll get a new account set up for you in no time."
+msgid ""
+"Registering for this site is easy, just fill in the fields below and we'll "
+"get a new account set up for you in no time."
 msgstr ""
 
 #: registration/register.php:65
@@ -2895,7 +2925,9 @@ msgid "Site Title"
 msgstr ""
 
 #: registration/register.php:268
-msgid "I would like my site to appear in search engines, and in public listings around this network."
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
 msgstr ""
 
 #: registration/register.php:288
@@ -2907,10 +2939,14 @@ msgid "Sign Up Complete!"
 msgstr ""
 
 #: registration/register.php:306
-msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
 msgstr ""
 
 #: registration/register.php:308
-msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
 msgstr ""
-

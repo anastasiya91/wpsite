@@ -1,4 +1,4 @@
-msgid ""
+﻿msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce v1.6.1\n"
 "Report-Msgid-Bugs-To: \n"
@@ -1154,11 +1154,6 @@ msgstr "Тайский Бахт"
 #@ woocommerce
 msgid "Turkish Lira (TL)"
 msgstr "Турецкая лира (TL)"
-
-#: admin/settings/settings-init.php:72
-#@ woocommerce
-msgid "Russian Rubles (руб.)"
-msgstr "Рубли (руб.)"
 
 #: admin/settings/settings-init.php:75
 #@ woocommerce
@@ -6295,7 +6290,7 @@ msgstr "Выбрать варианты"
 #: templates/single-product/add-to-cart/variable.php:61
 #@ woocommerce
 msgid "Add to cart"
-msgstr "В корзину"
+msgstr "Добавить в корзину"
 
 #: templates/single-product/add-to-cart/variable.php:21
 #@ woocommerce

@@ -1,24 +1,24 @@
 <?php
 /*tpl_advanced_search.php BOF*/
-define('SEARCH_WEBSITE',__('Search Products','templatic'));
-define('SEARCH',__('Search','templatic'));
-define('CATEGORY',__('Category','templatic'));
-define('SELECT_CATEGORY',__('select category','templatic'));
-define('DATE_TEXT',__('Date','templatic'));
-define('TO',__('<span>to</span>','templatic'));
-define('AUTHOR_TEXT',__('Author','templatic'));
-define('EXACT_AUTHOR_TEXT',__('Exact author','templatic'));
-define('SEARCH_ALERT_MSG',__('Please enter word you want to search','templatic'));
-define('TAG_SEARCG_TEXT',__('Tags','templatic'));
+define('SEARCH_WEBSITE',__('Поиск товаров','templatic'));
+define('SEARCH',__('Поиск','templatic'));
+define('CATEGORY',__('Категория','templatic'));
+define('SELECT_CATEGORY',__('выбрать категорию','templatic'));
+define('DATE_TEXT',__('Дата','templatic'));
+define('TO',__('<span>к</span>','templatic'));
+define('AUTHOR_TEXT',__('Автор','templatic'));
+define('EXACT_AUTHOR_TEXT',__('Точный автор','templatic'));
+define('SEARCH_ALERT_MSG',__('Пожалуйста, введите слово, которое вы хотите найти','templatic'));
+define('TAG_SEARCG_TEXT',__('Теги','templatic'));
 /*tpl_advanced_search.php EOF*/
 
 /* tpl_contact.php BOF */
-define('DEAR',__('Dear','templatic'));
-define('NAME',__('Name','templatic'));
-define('SUBJECT',__('Subject','templatic'));
-define('MESSAGE',__('Message','templatic'));
-define('INQUIRY_TEXT',__('For further inquiry, fill out the form below','templatic'));
-define('CONTACT_SUCCESS_TEXT',__('Your message is sent successfully.','templatic'));
-define('PLZ_ENTER_MSG_TEXT',__('Please enter your message content','templatic'));
+define('DEAR',__('Уважаемый','templatic'));
+define('NAME',__('Имя','templatic'));
+define('SUBJECT',__('Тема','templatic'));
+define('MESSAGE',__('Сообщение','templatic'));
+define('INQUIRY_TEXT',__('Для связи с нами, заполните форму ниже','templatic'));
+define('CONTACT_SUCCESS_TEXT',__('Ваше сообщение успешно отправлено.','templatic'));
+define('PLZ_ENTER_MSG_TEXT',__('Пожалуйста, введите содержание Ваше сообщения','templatic'));
 /* tpl_contact.php EOF */
 ?>
