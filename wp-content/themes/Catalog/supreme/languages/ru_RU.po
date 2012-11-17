@@ -1,0 +1,4485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Supreme v0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-11-16 10:17:12+0000\n"
+"Last-Translator: admin <anasteziea@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:30
+#@ supreme
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:37
+#, php-format
+#@ supreme
+msgid "You tried going to %1$s, and it doesn't exist. All is not lost! You can search for what you're looking for."
+msgstr ""
+
+#: activity/activity-loop.php:40
+#@ buddypress
+msgid "Load More"
+msgstr ""
+
+#: activity/activity-loop.php:54
+#@ buddypress
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#. translators: 1: user profile link, 2: user name, 3: activity permalink, 3: activity timestamp
+#: activity/comment.php:28
+#, php-format
+#@ buddypress
+msgid "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: activity/comment.php:39
+#: groups/single/forum/edit.php:21
+#: library/functions/shortcodes.php:462
+#@ buddypress
+#@ hybrid-core
+msgid "Reply"
+msgstr ""
+
+#: activity/comment.php:45
+#: bbpress/form-topic-tag.php:87
+#: bbpress/form-topic-tag.php:101
+#: members/single/messages/messages-loop.php:73
+#: members/single/messages/single.php:38
+#@ buddypress
+#@ bbpress
+msgid "Delete"
+msgstr ""
+
+#: activity/entry.php:35
+#@ buddypress
+msgid "In reply to: "
+msgstr ""
+
+#: activity/entry.php:35
+#@ buddypress
+msgid "View Thread / Permalink"
+msgstr ""
+
+#: activity/entry.php:35
+#: library/classes/widget-tags.php:165
+#@ buddypress
+#@ hybrid-core
+msgid "View"
+msgstr ""
+
+#: activity/entry.php:54
+#, php-format
+#@ buddypress
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: activity/entry.php:62
+#@ buddypress
+msgid "Mark as Favorite"
+msgstr ""
+
+#: activity/entry.php:62
+#@ buddypress
+msgid "Favorite"
+msgstr ""
+
+#: activity/entry.php:66
+#@ buddypress
+msgid "Remove Favorite"
+msgstr ""
+
+#: activity/entry.php:100
+#@ buddypress
+msgid "Post"
+msgstr ""
+
+#: activity/entry.php:100
+#@ buddypress
+msgid "or press esc to cancel."
+msgstr ""
+
+#: activity/index.php:31
+#@ buddypress
+msgid "Activity"
+msgstr ""
+
+#: activity/index.php:53
+#@ buddypress
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: activity/index.php:53
+#: members/index.php:46
+#, php-format
+#@ buddypress
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:63
+#@ buddypress
+msgid "The activity of my friends only."
+msgstr ""
+
+#: activity/index.php:63
+#: members/index.php:50
+#, php-format
+#@ buddypress
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:75
+#@ buddypress
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: activity/index.php:75
+#: groups/index.php:52
+#, php-format
+#@ buddypress
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:85
+#@ buddypress
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: activity/index.php:85
+#, php-format
+#@ buddypress
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:91
+#@ buddypress
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: activity/index.php:91
+#@ buddypress
+msgid "Mentions"
+msgstr ""
+
+#: activity/index.php:91
+#, php-format
+#@ buddypress
+msgid "<span>%s new</span>"
+msgstr ""
+
+#: activity/index.php:105
+#@ buddypress
+msgid "RSS Feed"
+msgstr ""
+
+#: activity/index.php:105
+#: groups/single/activity.php:14
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:164
+#@ buddypress
+#@ hybrid-core
+msgid "RSS"
+msgstr ""
+
+#: activity/index.php:110
+#: members/single/activity.php:18
+#@ buddypress
+msgid "Show:"
+msgstr ""
+
+#: activity/index.php:112
+#: groups/single/activity.php:23
+#: members/single/activity.php:20
+#@ buddypress
+msgid "Everything"
+msgstr ""
+
+#: activity/index.php:113
+#: groups/single/activity.php:24
+#: members/single/activity.php:21
+#@ buddypress
+msgid "Updates"
+msgstr ""
+
+#: activity/index.php:117
+#: members/single/activity.php:27
+#: page-template-sitemap.php:33
+#@ buddypress
+#@ supreme
+msgid "Posts"
+msgstr ""
+
+#: activity/index.php:118
+#: members/single/activity.php:28
+#@ buddypress
+msgid "Comments"
+msgstr ""
+
+#: activity/index.php:124
+#: groups/single/activity.php:27
+#: members/single/activity.php:43
+#@ buddypress
+msgid "Forum Topics"
+msgstr ""
+
+#: activity/index.php:125
+#: groups/single/activity.php:28
+#: members/single/activity.php:44
+#@ buddypress
+msgid "Forum Replies"
+msgstr ""
+
+#: activity/index.php:131
+#: members/single/activity.php:50
+#@ buddypress
+msgid "New Groups"
+msgstr ""
+
+#: activity/index.php:132
+#: groups/single/activity.php:31
+#: members/single/activity.php:51
+#@ buddypress
+msgid "Group Memberships"
+msgstr ""
+
+#: activity/index.php:138
+#: members/single/activity.php:35
+#@ buddypress
+msgid "Friendships"
+msgstr ""
+
+#: activity/index.php:142
+#@ buddypress
+msgid "New Members"
+msgstr ""
+
+#: activity/post-form.php:26
+#, php-format
+#@ buddypress
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: activity/post-form.php:28
+#, php-format
+#@ buddypress
+msgid "What's new, %s?"
+msgstr ""
+
+#: activity/post-form.php:39
+#@ buddypress
+msgid "Post Update"
+msgstr ""
+
+#: activity/post-form.php:46
+#@ buddypress
+msgid "Post in"
+msgstr ""
+
+#: activity/post-form.php:49
+#: members/single/profile/profile-wp.php:22
+#@ buddypress
+msgid "My Profile"
+msgstr ""
+
+#: admin/functions-admin.php:37
+#: functions/admin.php:37
+#@ supreme
+msgid "General"
+msgstr ""
+
+#: admin/functions-admin.php:47
+#: functions/admin.php:47
+#: library/extensions/theme-layouts.php:377
+#: library/extensions/theme-layouts.php:485
+#@ supreme
+#@ theme-layouts
+msgid "Layout"
+msgstr ""
+
+#: admin/functions-admin.php:66
+#@ supreme
+msgid "Logo:"
+msgstr ""
+
+#: admin/functions-admin.php:71
+#: functions/admin.php:71
+#@ supreme
+msgid "Upload image for logo. Once uploaded, click the Insert Into Post button. If that does not work, copy the address of the image and paste it in the input field above. Next, click on Save Settings buton at the bottom of this page. The image will automatically display here after settings are saved."
+msgstr ""
+
+#: admin/functions-admin.php:85
+#: functions/admin.php:85
+#: templatic_customizer.php:117
+#@ supreme
+#@ templatic
+msgid "Hide Site Description"
+msgstr ""
+
+#: admin/functions-admin.php:92
+#: functions/admin.php:92
+#@ supreme
+msgid "Display Excerpts"
+msgstr ""
+
+#: admin/functions-admin.php:96
+#@ supreme
+msgid "Display excerpts on archive pages."
+msgstr ""
+
+#: admin/functions-admin.php:101
+#@ supreme
+msgid "Display Excerpts on front (blog) page."
+msgstr ""
+
+#: admin/functions-admin.php:106
+#: functions/admin.php:106
+#@ supreme
+msgid "Display Excerpts on search result pages."
+msgstr ""
+
+#: admin/functions-admin.php:109
+#@ supreme
+msgid "By default, the front/blog, archive pages, and search result page display the excerpt."
+msgstr ""
+
+#: admin/functions-admin.php:116
+#@ supreme
+msgid "Search Forms In Header"
+msgstr ""
+
+#: admin/functions-admin.php:120
+#@ supreme
+msgid "Show search form under Header Primary Menu"
+msgstr ""
+
+#: admin/functions-admin.php:125
+#@ supreme
+msgid "Show search form under Header Secondary Menu"
+msgstr ""
+
+#: admin/functions-admin.php:128
+#@ supreme
+msgid "By default, search forms in the header are not displayed. Use this option to make them visible."
+msgstr ""
+
+#: admin/functions-admin.php:129
+#@ supreme
+msgid "Primary Search is dependent on whether Header Primary Menu is active. If Header Primary Menu is not active, Primary Search will not show regardless of your setting. The same goes for Secondary Search and Header Secondary Menu."
+msgstr ""
+
+#: admin/functions-admin.php:136
+#: functions/admin.php:136
+#@ supreme
+msgid "Author Biography and Avatar"
+msgstr ""
+
+#: admin/functions-admin.php:140
+#: functions/admin.php:140
+#@ supreme
+msgid "Show On Posts:"
+msgstr ""
+
+#: admin/functions-admin.php:145
+#: functions/admin.php:145
+#@ supreme
+msgid "Show On Pages:"
+msgstr ""
+
+#: admin/functions-admin.php:147
+#: functions/admin.php:147
+#@ supreme
+msgid "This controls the display of the author biography box in the loop-entry-author.php file, which includes an avatar and biography (from your user profile page)."
+msgstr ""
+
+#: admin/functions-admin.php:168
+#: functions/admin.php:168
+#@ supreme
+msgid "Global Layout:"
+msgstr ""
+
+#: admin/functions-admin.php:173
+#: admin/functions-admin.php:239
+#: admin/functions-admin.php:265
+#@ supreme
+msgid "layout_default"
+msgstr ""
+
+#: admin/functions-admin.php:175
+#: admin/functions-admin.php:240
+#: admin/functions-admin.php:266
+#@ supreme
+msgid "layout_1c"
+msgstr ""
+
+#: admin/functions-admin.php:178
+#: admin/functions-admin.php:241
+#: admin/functions-admin.php:267
+#@ supreme
+msgid "layout_2c_l"
+msgstr ""
+
+#: admin/functions-admin.php:181
+#: admin/functions-admin.php:242
+#: admin/functions-admin.php:268
+#@ supreme
+msgid "layout_2c_r"
+msgstr ""
+
+#: admin/functions-admin.php:184
+#: admin/functions-admin.php:243
+#: admin/functions-admin.php:269
+#@ supreme
+msgid "layout_3c_c"
+msgstr ""
+
+#: admin/functions-admin.php:187
+#: admin/functions-admin.php:244
+#: admin/functions-admin.php:270
+#@ supreme
+msgid "layout_3c_l"
+msgstr ""
+
+#: admin/functions-admin.php:190
+#: admin/functions-admin.php:245
+#: admin/functions-admin.php:271
+#@ supreme
+msgid "layout_3c_r"
+msgstr ""
+
+#: admin/functions-admin.php:193
+#: admin/functions-admin.php:246
+#: admin/functions-admin.php:272
+#@ supreme
+msgid "layout_hl_1c"
+msgstr ""
+
+#: admin/functions-admin.php:196
+#: admin/functions-admin.php:247
+#: admin/functions-admin.php:273
+#@ supreme
+msgid "layout_hl_2c_l"
+msgstr ""
+
+#: admin/functions-admin.php:199
+#: admin/functions-admin.php:248
+#: admin/functions-admin.php:274
+#@ supreme
+msgid "layout_hl_2c_r"
+msgstr ""
+
+#: admin/functions-admin.php:202
+#: admin/functions-admin.php:249
+#: admin/functions-admin.php:275
+#@ supreme
+msgid "layout_hr_1c"
+msgstr ""
+
+#: admin/functions-admin.php:205
+#: admin/functions-admin.php:250
+#: admin/functions-admin.php:276
+#@ supreme
+msgid "layout_hr_2c_l"
+msgstr ""
+
+#: admin/functions-admin.php:208
+#: admin/functions-admin.php:251
+#: admin/functions-admin.php:277
+#@ supreme
+msgid "layout_hr_2c_r"
+msgstr ""
+
+#: admin/functions-admin.php:211
+#@ supreme
+msgid "Set the layout for the entire site. The default layout is 2 columns with content on the left, therefore, layout_default and layout_2c_l will display the same layout."
+msgstr ""
+
+#: admin/functions-admin.php:213
+#@ supreme
+msgid "Layout Guide"
+msgstr ""
+
+#: admin/functions-admin.php:214
+#@ supreme
+msgid "layout_default: Default"
+msgstr ""
+
+#: admin/functions-admin.php:215
+#@ supreme
+msgid "layout_1c: 1 Column"
+msgstr ""
+
+#: admin/functions-admin.php:216
+#@ supreme
+msgid "layout_2c_l: 2 Columns, Left"
+msgstr ""
+
+#: admin/functions-admin.php:217
+#@ supreme
+msgid "layout_2c_r: 2 Columns, Right"
+msgstr ""
+
+#: admin/functions-admin.php:218
+#@ supreme
+msgid "layout_3c_c: 3 Columns, Center"
+msgstr ""
+
+#: admin/functions-admin.php:219
+#@ supreme
+msgid "layout_3c_l: 3 Columns, Left"
+msgstr ""
+
+#: admin/functions-admin.php:220
+#@ supreme
+msgid "layout_3c_r: 3 Columns, Right"
+msgstr ""
+
+#: admin/functions-admin.php:221
+#@ supreme
+msgid "layout_hl_1c: Header Left 1 Column"
+msgstr ""
+
+#: admin/functions-admin.php:222
+#@ supreme
+msgid "layout_hl_2c_l: Header Left 2 Columns, Left"
+msgstr ""
+
+#: admin/functions-admin.php:223
+#@ supreme
+msgid "layout_hl_2c_r: Header Left 2 Columns, Right"
+msgstr ""
+
+#: admin/functions-admin.php:224
+#@ supreme
+msgid "layout_hr_1c: Header Right 1 Column"
+msgstr ""
+
+#: admin/functions-admin.php:225
+#@ supreme
+msgid "layout_hr_2c_l: Header Right 2 Columns, Left"
+msgstr ""
+
+#: admin/functions-admin.php:226
+#@ supreme
+msgid "layout_hr_2c_r: Header Right 2 Columns, Right"
+msgstr ""
+
+#: admin/functions-admin.php:235
+#: functions/admin.php:220
+#@ supreme
+msgid "bbPress Layout:"
+msgstr ""
+
+#: admin/functions-admin.php:253
+#: functions/admin.php:238
+#@ supreme
+msgid "If bbPress (message board) is installed then use this option if you want to set a custom layout for all bbPress pages. For setting per forum or per topic layout, find the forum or topic to edit via the All Forums or All Topics management page, click on the Edit link, then set the custom layout."
+msgstr ""
+
+#: admin/functions-admin.php:261
+#: functions/admin.php:248
+#@ supreme
+msgid "BuddyPress Layout:"
+msgstr ""
+
+#: admin/functions-admin.php:279
+#: functions/admin.php:266
+#@ supreme
+msgid "If BuddyPress (social networking) is installed then use this option if you want to set a custom layout for all BuddyPress pages."
+msgstr ""
+
+#: attachment.php:52
+#, php-format
+#@ supreme
+msgid "Download \"%s\";"
+msgstr ""
+
+#: attachment.php:57
+#: index.php:44
+#: loop.php:30
+#: page.php:39
+#: post.php:44
+#: singular.php:44
+#@ supreme
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: attachment.php:58
+#: index.php:45
+#: loop.php:31
+#: page.php:40
+#: post.php:45
+#: singular.php:45
+#@ supreme
+msgid "Pages:"
+msgstr ""
+
+#: attachment.php:63
+#@ supreme
+msgid "Gallery"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:14
+#: bbpress/loop-single-reply.php:26
+#: library/functions/shortcodes.php:373
+#: single-reply.php:34
+#, php-format
+#@ bbpress
+#@ hybrid-core
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:42
+#@ fanwood
+msgid "Started by:"
+msgstr ""
+
+#: bbpress/content-single-user-edit.php:20
+#, php-format
+#@ bbpress
+msgid "Profile of User %s"
+msgstr ""
+
+#: bbpress/content-single-user-edit.php:20
+#@ bbpress
+msgid "Back to Profile"
+msgstr ""
+
+#: bbpress/feedback-logged-in.php:13
+#@ bbpress
+msgid "You are already logged in."
+msgstr ""
+
+#: bbpress/feedback-no-access.php:13
+#@ bbpress
+msgid "Private"
+msgstr ""
+
+#: bbpress/feedback-no-access.php:16
+#@ bbpress
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: bbpress/feedback-no-forums.php:13
+#@ bbpress
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-topics.php:13
+#@ bbpress
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: bbpress/form-anonymous.php:16
+#@ bbpress
+msgid "Author Information"
+msgstr ""
+
+#: bbpress/form-anonymous.php:16
+#@ bbpress
+msgid "Your information:"
+msgstr ""
+
+#: bbpress/form-anonymous.php:21
+#@ bbpress
+msgid "Name (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:26
+#@ bbpress
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:31
+#@ bbpress
+msgid "Website:"
+msgstr ""
+
+#: bbpress/form-forum.php:33
+#: bbpress/form-topic.php:33
+#, php-format
+#@ bbpress
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:35
+#, php-format
+#@ bbpress
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:35
+#@ bbpress
+msgid "Create New Forum"
+msgstr ""
+
+#: bbpress/form-forum.php:45
+#@ bbpress
+msgid "This forum is closed to new content, however your account still allows you to do so."
+msgstr ""
+
+#: bbpress/form-forum.php:53
+#: bbpress/form-reply.php:37
+#: bbpress/form-topic.php:53
+#@ bbpress
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-forum.php:65
+#, php-format
+#@ bbpress
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-forum.php:76
+#@ bbpress
+msgid "Forum Description:"
+msgstr ""
+
+#: bbpress/form-forum.php:91
+#: bbpress/form-reply.php:66
+#: bbpress/form-topic.php:93
+#@ bbpress
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: bbpress/form-forum.php:100
+#@ bbpress
+msgid "Forum Type:"
+msgstr ""
+
+#: bbpress/form-forum.php:109
+#@ bbpress
+msgid "Status:"
+msgstr ""
+
+#: bbpress/form-forum.php:118
+#@ bbpress
+msgid "Visibility:"
+msgstr ""
+
+#: bbpress/form-forum.php:127
+#@ bbpress
+msgid "Parent Forum:"
+msgstr ""
+
+#: bbpress/form-forum.php:132
+#@ bbpress
+msgid "(No Parent)"
+msgstr ""
+
+#: bbpress/form-forum.php:147
+#: bbpress/form-reply.php:134
+#: bbpress/form-topic-merge.php:78
+#: bbpress/form-topic-split.php:79
+#: bbpress/form-topic.php:185
+#@ bbpress
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-forum.php:171
+#, php-format
+#@ bbpress
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: bbpress/form-forum.php:179
+#@ bbpress
+msgid "You cannot create new forums at this time."
+msgstr ""
+
+#: bbpress/form-forum.php:179
+#@ bbpress
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: bbpress/form-protected.php:13
+#@ bbpress
+msgid "Protected"
+msgstr ""
+
+#: bbpress/form-reply.php:22
+#, php-format
+#@ bbpress
+msgid "Reply To: %s"
+msgstr ""
+
+#: bbpress/form-reply.php:29
+#@ bbpress
+msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-reply.php:51
+#: bbpress/form-topic.php:78
+#@ bbpress
+msgid "Reply:"
+msgstr ""
+
+#: bbpress/form-reply.php:75
+#@ bbpress
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:91
+#: bbpress/form-topic.php:146
+#@ bbpress
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:95
+#: bbpress/form-topic.php:150
+#@ bbpress
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:109
+#: bbpress/form-topic.php:164
+#@ bbpress
+msgid "Revision"
+msgstr ""
+
+#: bbpress/form-reply.php:112
+#: bbpress/form-topic.php:167
+#@ bbpress
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:116
+#: bbpress/form-topic.php:171
+#@ bbpress
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:156
+#, php-format
+#@ bbpress
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:164
+#: bbpress/form-topic.php:209
+#, php-format
+#@ bbpress
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:172
+#@ bbpress
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:172
+#@ bbpress
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:20
+#, php-format
+#@ bbpress
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:23
+#@ bbpress
+msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:24
+#@ bbpress
+msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:28
+#@ bbpress
+msgid "All replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted. If the destination topic was created after this one, it's post date will be updated to second earlier than this one."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:31
+#@ bbpress
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:36
+#@ bbpress
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:45
+#@ bbpress
+msgid "No topics were found to which the topic could be merged to!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:51
+#@ bbpress
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:57
+#: bbpress/form-topic-split.php:58
+#@ bbpress
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:63
+#@ bbpress
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:67
+#@ bbpress
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:69
+#@ bbpress
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:74
+#: bbpress/form-topic-split.php:75
+#@ bbpress
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:91
+#: bbpress/form-topic-split.php:93
+#@ bbpress
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:91
+#: bbpress/form-topic-split.php:93
+#@ bbpress
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:20
+#, php-format
+#@ bbpress
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:23
+#@ bbpress
+msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:27
+#@ bbpress
+msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:30
+#@ bbpress
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:33
+#, php-format
+#@ bbpress
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:35
+#, php-format
+#@ bbpress
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:41
+#@ bbpress
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:50
+#@ bbpress
+msgid "No other topics found!"
+msgstr ""
+
+#: bbpress/form-topic-split.php:64
+#@ bbpress
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:68
+#@ bbpress
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:70
+#@ bbpress
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:20
+#@ bbpress
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:23
+#@ bbpress
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:27
+#@ bbpress
+msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:33
+#@ bbpress
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:38
+#@ bbpress
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:43
+#@ bbpress
+msgid "Update"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:57
+#: bbpress/form-topic-tag.php:71
+#: library/extensions/breadcrumb-trail.php:428
+#@ bbpress
+#@ breadcrumb-trail
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:60
+#@ bbpress
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:66
+#@ bbpress
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:72
+#, php-format
+#@ bbpress
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:90
+#@ bbpress
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:94
+#@ bbpress
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:95
+#@ bbpress
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:102
+#, php-format
+#@ bbpress
+msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:35
+#, php-format
+#@ bbpress
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:35
+#@ bbpress
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:45
+#@ bbpress
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:67
+#, php-format
+#@ bbpress
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:102
+#@ bbpress
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:113
+#@ bbpress
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:127
+#@ bbpress
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:217
+#@ bbpress
+msgid "You cannot create new topics at this time."
+msgstr ""
+
+#: bbpress/form-topic.php:217
+#@ bbpress
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:17
+#: jigoshop/single-product-reviews.php:97
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-tags.php:168
+#: library/functions/comments.php:187
+#: members/single/profile/profile-wp.php:29
+#: page-template-contact.php:135
+#@ bbpress
+#@ jigoshop
+#@ hybrid-core
+#@ buddypress
+#@ templatic
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:22
+#@ bbpress
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:27
+#@ bbpress
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:32
+#@ bbpress
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:37
+#@ bbpress
+msgid "Display name publicly as"
+msgstr ""
+
+#: bbpress/form-user-edit.php:45
+#@ bbpress
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:50
+#: library/functions/comments.php:189
+#: members/single/profile/profile-wp.php:47
+#@ bbpress
+#@ hybrid-core
+#@ buddypress
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:65
+#@ bbpress
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:65
+#@ bbpress
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:70
+#@ bbpress
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:72
+#@ bbpress
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: bbpress/form-user-edit.php:77
+#@ bbpress
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:82
+#: bbpress/form-user-login.php:17
+#: bbpress/form-user-register.php:22
+#: registration/register.php:69
+#@ bbpress
+#@ buddypress
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:84
+#@ bbpress
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: bbpress/form-user-edit.php:88
+#: bbpress/form-user-register.php:27
+#: jigoshop/single-product-reviews.php:99
+#: library/classes/widget-authors.php:137
+#: library/functions/comments.php:188
+#: page-template-contact.php:141
+#@ bbpress
+#@ jigoshop
+#@ hybrid-core
+#@ templatic
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:99
+#, php-format
+#@ bbpress
+msgid "There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
+msgstr ""
+
+#: bbpress/form-user-edit.php:107
+#: members/single/settings/general.php:78
+#@ bbpress
+#@ buddypress
+msgid "New Password"
+msgstr ""
+
+#: bbpress/form-user-edit.php:109
+#@ bbpress
+msgid "If you would like to change the password, type a new one. Otherwise leave this blank."
+msgstr ""
+
+#: bbpress/form-user-edit.php:113
+#@ bbpress
+msgid "Enter Password Again"
+msgstr ""
+
+#: bbpress/form-user-edit.php:119
+#@ bbpress
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: bbpress/form-user-edit.php:124
+#@ bbpress
+msgid "Role:"
+msgstr ""
+
+#: bbpress/form-user-edit.php:133
+#@ bbpress
+msgid "Super Admin"
+msgstr ""
+
+#: bbpress/form-user-edit.php:135
+#@ bbpress
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:146
+#@ bbpress
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:146
+#@ bbpress
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:14
+#: bbpress/form-user-login.php:33
+#@ bbpress
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:22
+#@ bbpress
+msgid "Password"
+msgstr ""
+
+#: bbpress/form-user-login.php:28
+#@ bbpress
+msgid "Keep me signed in"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:14
+#@ bbpress
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:17
+#@ bbpress
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:23
+#@ bbpress
+msgid "Reset my password"
+msgstr ""
+
+#: bbpress/form-user-register.php:14
+#@ bbpress
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:17
+#@ bbpress
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:18
+#@ bbpress
+msgid "We use your email address to email you a secure password and verify your account."
+msgstr ""
+
+#: bbpress/form-user-register.php:34
+#@ bbpress
+msgid "Register"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:24
+#@ bbpress
+msgid "Topics:"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:27
+#: bbpress/loop-single-topic.php:46
+#@ bbpress
+msgid "Replies:"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:31
+#: bbpress/loop-single-topic.php:50
+#@ bbpress
+msgid "Freshness:"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:63
+#, php-format
+#@ bbpress
+msgid "<a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/user-details.php:15
+#, php-format
+#@ bbpress
+msgid "About %s"
+msgstr ""
+
+#: bbpress/user-details.php:19
+#, php-format
+#@ bbpress
+msgid "Edit Profile of %s"
+msgstr ""
+
+#: bbpress/user-details.php:19
+#@ bbpress
+msgid "(Edit)"
+msgstr ""
+
+#: bbpress/user-favorites.php:15
+#@ bbpress
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:25
+#@ bbpress
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: bbpress/user-favorites.php:25
+#@ bbpress
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:20
+#@ bbpress
+msgid "Subscribed Forum Topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:31
+#@ bbpress
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:31
+#@ bbpress
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:16
+#@ bbpress
+msgid "Forum Topics Created"
+msgstr ""
+
+#: bbpress/user-topics-created.php:26
+#@ bbpress
+msgid "You have not created any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:26
+#@ bbpress
+msgid "This user has not created any topics."
+msgstr ""
+
+#: blogs/blogs-loop.php:77
+#@ buddypress
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: blogs/create.php:28
+#: blogs/index.php:29
+#@ buddypress
+msgid "Create a Site"
+msgstr ""
+
+#: blogs/create.php:28
+#@ buddypress
+msgid "Site Directory"
+msgstr ""
+
+#: blogs/create.php:44
+#@ buddypress
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: blogs/index.php:29
+#@ buddypress
+msgid "Sites Directory"
+msgstr ""
+
+#: blogs/index.php:43
+#, php-format
+#@ buddypress
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: blogs/index.php:47
+#, php-format
+#@ buddypress
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: blogs/index.php:63
+#: forums/index.php:68
+#: groups/index.php:68
+#: groups/single/forum.php:49
+#: members/index.php:66
+#: members/single/blogs.php:19
+#: members/single/forums.php:18
+#: members/single/friends.php:20
+#: members/single/groups.php:20
+#@ buddypress
+msgid "Order By:"
+msgstr ""
+
+#: blogs/index.php:65
+#: forums/index.php:70
+#: groups/index.php:70
+#: groups/single/forum.php:51
+#: members/index.php:68
+#: members/single/blogs.php:21
+#: members/single/forums.php:20
+#: members/single/friends.php:22
+#: members/single/groups.php:22
+#@ buddypress
+msgid "Last Active"
+msgstr ""
+
+#: blogs/index.php:66
+#: members/single/blogs.php:22
+#@ buddypress
+msgid "Newest"
+msgstr ""
+
+#: blogs/index.php:67
+#: groups/index.php:73
+#: library/classes/widget-archives.php:154
+#: members/index.php:73
+#: members/single/blogs.php:23
+#: members/single/friends.php:24
+#: members/single/groups.php:25
+#@ buddypress
+#@ hybrid-core
+msgid "Alphabetical"
+msgstr ""
+
+#: comment.php:32
+#@ supreme
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:14
+#@ supreme
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:29
+#: page-template-archives.php:52
+#@ supreme
+#@ templatic
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:29
+#@ supreme
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:29
+#: page-template-archives.php:52
+#@ supreme
+#@ templatic
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+#@ supreme
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: comments.php:51
+#, php-format
+#@ supreme
+msgid "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+#: comments.php:57
+#@ supreme
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:64
+#: library/functions/comments.php:205
+#@ supreme
+#@ hybrid-core
+msgid "Post Comment"
+msgstr ""
+
+#: content-aside.php:1
+#: content-gallery.php:8
+#: content-image.php:8
+#: content-link.php:2
+#: content-quote.php:2
+#: content-status.php:1
+#@ supreme
+msgid "Published by [entry-author] on [entry-published] [entry-permalink]"
+msgstr ""
+
+#: content.php:10
+#@ supreme
+msgid "by [entry-author] on [entry-published] [entry-permalink]"
+msgstr ""
+
+#: forums/forums-loop.php:39
+#: library/functions/shortcodes.php:345
+#: library/functions/shortcodes.php:422
+#@ buddypress
+#@ hybrid-core
+msgid "Permalink"
+msgstr ""
+
+#: forums/forums-loop.php:45
+#@ buddypress
+msgid "Replies"
+msgstr ""
+
+#: forums/forums-loop.php:53
+#@ buddypress
+msgid "Latest by: "
+msgstr ""
+
+#: forums/forums-loop.php:62
+#, php-format
+#@ buddypress
+msgid "%1$s"
+msgstr ""
+
+#: forums/forums-loop.php:97
+#@ buddypress
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: forums/index.php:30
+#@ buddypress
+msgid "Forums Directory"
+msgstr ""
+
+#: forums/index.php:30
+#: groups/single/forum.php:32
+#@ buddypress
+msgid "New Topic"
+msgstr ""
+
+#: forums/index.php:48
+#, php-format
+#@ buddypress
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: forums/index.php:52
+#, php-format
+#@ buddypress
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: forums/index.php:71
+#: groups/single/forum.php:52
+#: members/single/forums.php:21
+#@ buddypress
+msgid "Most Posts"
+msgstr ""
+
+#: forums/index.php:72
+#: groups/single/forum.php:53
+#: members/single/forums.php:22
+#@ buddypress
+msgid "Unreplied"
+msgstr ""
+
+#: forums/index.php:110
+#@ buddypress
+msgid "Create New Topic:"
+msgstr ""
+
+#: forums/index.php:115
+#: groups/single/forum/edit.php:60
+#: groups/single/forum.php:89
+#: library/classes/widget-archives.php:162
+#: library/classes/widget-authors.php:143
+#: library/classes/widget-bookmarks.php:187
+#: library/classes/widget-calendar.php:108
+#: library/classes/widget-categories.php:170
+#: library/classes/widget-mega_menu.php:123
+#: library/classes/widget-nav-menu.php:133
+#: library/classes/widget-pages.php:157
+#: library/classes/widget-search.php:143
+#: library/classes/widget-tags.php:175
+#@ buddypress
+#@ hybrid-core
+#@ Templatic
+msgid "Title:"
+msgstr ""
+
+#: forums/index.php:120
+#: groups/single/forum/edit.php:65
+#: groups/single/forum.php:94
+#@ buddypress
+msgid "Content:"
+msgstr ""
+
+#: forums/index.php:125
+#: groups/single/forum/edit.php:70
+#: groups/single/forum.php:99
+#@ buddypress
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: forums/index.php:130
+#@ buddypress
+msgid "Post In Group Forum:"
+msgstr ""
+
+#. translators: no option picked in select box
+#: forums/index.php:133
+#@ buddypress
+msgid "----"
+msgstr ""
+
+#: forums/index.php:151
+#: groups/single/forum.php:106
+#@ buddypress
+msgid "Post Topic"
+msgstr ""
+
+#: forums/index.php:152
+#@ buddypress
+msgid "Cancel"
+msgstr ""
+
+#: forums/index.php:165
+#, php-format
+#@ buddypress
+msgid "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum."
+msgstr ""
+
+#: functions/admin.php:66
+#@ supreme
+msgid "Логотип:"
+msgstr ""
+
+#: functions/admin.php:82
+#@ supreme
+msgid "Описание сайта:"
+msgstr ""
+
+#: functions/admin.php:96
+#@ supreme
+msgid "Отображение выдержек на страницах архива."
+msgstr ""
+
+#: functions/admin.php:109
+#@ supreme
+msgid "By default, the archive pages and search result page display the full post."
+msgstr ""
+
+#: functions/admin.php:172
+#: functions/admin.php:224
+#: functions/admin.php:252
+#: functions/admin.php:277
+#: functions/admin.php:327
+#: functions.php:502
+#: library/extensions/theme-layouts.php:295
+#@ supreme
+#@ theme-layouts
+msgid "Default"
+msgstr ""
+
+#: functions/admin.php:174
+#: functions/admin.php:225
+#: functions/admin.php:253
+#: functions/admin.php:279
+#: functions/admin.php:329
+#: functions.php:503
+#: library/extensions/theme-layouts.php:296
+#@ supreme
+#@ theme-layouts
+msgid "One Column"
+msgstr ""
+
+#: functions/admin.php:177
+#: functions/admin.php:226
+#: functions/admin.php:254
+#: functions/admin.php:282
+#: functions/admin.php:332
+#: functions.php:504
+#: library/extensions/theme-layouts.php:297
+#@ supreme
+#@ theme-layouts
+msgid "Two Columns, Left"
+msgstr ""
+
+#: functions/admin.php:180
+#: functions/admin.php:227
+#: functions/admin.php:255
+#: functions/admin.php:285
+#: functions/admin.php:335
+#: functions.php:505
+#: library/extensions/theme-layouts.php:298
+#@ supreme
+#@ theme-layouts
+msgid "Two Columns, Right"
+msgstr ""
+
+#: functions/admin.php:183
+#: functions/admin.php:228
+#: functions/admin.php:256
+#: functions/admin.php:288
+#: functions/admin.php:338
+#: functions.php:506
+#: library/extensions/theme-layouts.php:301
+#@ supreme
+#@ theme-layouts
+msgid "Three Columns, Center"
+msgstr ""
+
+#: functions/admin.php:186
+#: functions/admin.php:229
+#: functions/admin.php:257
+#: functions/admin.php:291
+#: functions/admin.php:341
+#: functions.php:507
+#: library/extensions/theme-layouts.php:299
+#@ supreme
+#@ theme-layouts
+msgid "Three Columns, Left"
+msgstr ""
+
+#: functions/admin.php:189
+#: functions/admin.php:230
+#: functions/admin.php:258
+#: functions/admin.php:294
+#: functions/admin.php:344
+#: functions.php:508
+#: library/extensions/theme-layouts.php:300
+#@ supreme
+#@ theme-layouts
+msgid "Three Columns, Right"
+msgstr ""
+
+#: functions/admin.php:192
+#: functions/admin.php:231
+#: functions/admin.php:259
+#: functions/admin.php:297
+#: functions/admin.php:347
+#: functions.php:509
+#@ supreme
+#@ theme-layouts
+msgid "Header Left One Column"
+msgstr ""
+
+#: functions/admin.php:195
+#: functions/admin.php:232
+#: functions/admin.php:260
+#: functions/admin.php:350
+#: functions.php:510
+#@ supreme
+#@ theme-layouts
+msgid "Header Left Two Columns, Left"
+msgstr ""
+
+#: functions/admin.php:198
+#@ supreme
+msgid "Header Left, Two Columns Right"
+msgstr ""
+
+#: functions/admin.php:202
+#: functions/admin.php:234
+#: functions/admin.php:262
+#: functions/admin.php:307
+#: functions/admin.php:357
+#: functions.php:512
+#@ supreme
+#@ theme-layouts
+msgid "Header Right One Column"
+msgstr ""
+
+#: functions/admin.php:205
+#: functions/admin.php:235
+#: functions/admin.php:263
+#: functions/admin.php:310
+#: functions/admin.php:360
+#: functions.php:513
+#@ supreme
+#@ theme-layouts
+msgid "Header Right Two Columns, Left"
+msgstr ""
+
+#: functions/admin.php:209
+#: functions/admin.php:236
+#: functions/admin.php:264
+#: functions/admin.php:313
+#: functions.php:514
+#@ supreme
+#@ theme-layouts
+msgid "Header Right Two Columns, Right"
+msgstr ""
+
+#: functions/admin.php:213
+#@ supreme
+msgid "Set the layout for the entire site. The default design is Two Columns Left, therefore, Default and Two Columns Left will display the same layout."
+msgstr ""
+
+#: functions/admin.php:233
+#: functions/admin.php:261
+#: functions/admin.php:304
+#: functions/admin.php:354
+#: functions/admin.php:363
+#: functions.php:511
+#@ supreme
+#@ theme-layouts
+msgid "Header Left Two Columns, Right"
+msgstr ""
+
+#: functions/admin.php:273
+#@ supreme
+msgid "Jigoshop Layout:"
+msgstr ""
+
+#: functions/admin.php:300
+#@ supreme
+msgid "Header Left Two Columns Left"
+msgstr ""
+
+#: functions/admin.php:316
+#@ supreme
+msgid "If Jigoshop (e-commerce) is installed then use this option if you want to set a custom layout for all Jigoshop pages."
+msgstr ""
+
+#: functions/admin.php:323
+#@ supreme
+msgid "WooCommerce Layout:"
+msgstr ""
+
+#: functions/admin.php:366
+#@ supreme
+msgid "If WooCommerce (e-commerce) is installed then use this option if you want to set a custom layout for all WooCommerce pages."
+msgstr ""
+
+#: functions.php:643
+#@ bbpress
+msgid "favorites"
+msgstr ""
+
+#: functions.php:644
+#@ bbpress
+msgid "?"
+msgstr ""
+
+#: functions.php:645
+#, php-format
+#@ bbpress
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr ""
+
+#: functions.php:646
+#, php-format
+#@ bbpress
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: functions.php:647
+#@ bbpress
+msgid "&times;"
+msgstr ""
+
+#: functions.php:648
+#@ bbpress
+msgid "Add this topic to your favorites"
+msgstr ""
+
+#: functions.php:657
+#@ bbpress
+msgid "Subscribe"
+msgstr ""
+
+#: functions.php:658
+#@ bbpress
+msgid "Unsubscribe"
+msgstr ""
+
+#: functions.php:754
+#@ supreme
+msgctxt "nav menu location"
+msgid "Header Primary"
+msgstr ""
+
+#: functions.php:755
+#@ supreme
+msgctxt "nav menu location"
+msgid "Header Secondary"
+msgstr ""
+
+#: functions.php:756
+#@ supreme
+msgctxt "nav menu location"
+msgid "Header Horizontal"
+msgstr ""
+
+#: functions.php:757
+#@ supreme
+msgctxt "nav menu location"
+msgid "Footer"
+msgstr ""
+
+#: functions.php:770
+#@ supreme
+msgctxt "sidebar"
+msgid "Subsidiary 2 Columns"
+msgstr ""
+
+#: functions.php:771
+#@ supreme
+msgid "A 2-column widget area loaded before the footer of the site."
+msgstr ""
+
+#: functions.php:780
+#@ supreme
+msgctxt "sidebar"
+msgid "Subsidiary 3 Columns"
+msgstr ""
+
+#: functions.php:781
+#@ supreme
+msgid "A 3-column widget area loaded before the footer of the site."
+msgstr ""
+
+#: functions.php:790
+#@ supreme
+msgctxt "sidebar"
+msgid "Subsidiary 4 Columns"
+msgstr ""
+
+#: functions.php:791
+#@ supreme
+msgid "A 4-column widget area loaded before the footer of the site."
+msgstr ""
+
+#: functions.php:800
+#@ supreme
+msgctxt "sidebar"
+msgid "Subsidiary 5 Columns"
+msgstr ""
+
+#: functions.php:801
+#@ supreme
+msgid "A 5-column widget area loaded before the footer of the site."
+msgstr ""
+
+#: functions.php:810
+#@ supreme
+msgctxt "sidebar"
+msgid "After Header"
+msgstr ""
+
+#: functions.php:811
+#@ supreme
+msgid "A 1-column widget area loaded after the header of the site."
+msgstr ""
+
+#: functions.php:820
+#@ supreme
+msgctxt "sidebar"
+msgid "After Header 2 Columns"
+msgstr ""
+
+#: functions.php:821
+#@ supreme
+msgid "A 2-column widget area loaded after the header of the site."
+msgstr ""
+
+#: functions.php:830
+#@ supreme
+msgctxt "sidebar"
+msgid "After Header 3 Columns"
+msgstr ""
+
+#: functions.php:831
+#@ supreme
+msgid "A 3-column widget area loaded after the header of the site."
+msgstr ""
+
+#: functions.php:840
+#@ supreme
+msgctxt "sidebar"
+msgid "After Header 4 Columns"
+msgstr ""
+
+#: functions.php:841
+#@ supreme
+msgid "A 4-column widget area loaded after the header of the site."
+msgstr ""
+
+#: functions.php:850
+#@ supreme
+msgctxt "sidebar"
+msgid "After Header 5 Columns"
+msgstr ""
+
+#: functions.php:851
+#@ supreme
+msgid "A 5-column widget area loaded after the header of the site."
+msgstr ""
+
+#: functions.php:860
+#@ supreme
+msgctxt "sidebar"
+msgid "Entry"
+msgstr ""
+
+#: functions.php:861
+#@ supreme
+msgid "Loaded directly before the entry content texts."
+msgstr ""
+
+#: functions.php:870
+#@ supreme
+msgctxt "sidebar"
+msgid "Widgets Template"
+msgstr ""
+
+#: functions.php:871
+#@ supreme
+msgid "Used on widgets only page template."
+msgstr ""
+
+#: functions.php:881
+#@ default
+msgctxt "supreme"
+msgid "JQuery Mega Menu"
+msgstr ""
+
+#: functions.php:882
+#@ supreme
+msgid "Display jquery mega menu."
+msgstr ""
+
+#: functions.php:891
+#@ default
+msgctxt "supreme"
+msgid "Contact Page Widget Area"
+msgstr ""
+
+#: functions.php:892
+#@ supreme
+msgid "Displays widgets on contact us page."
+msgstr ""
+
+#: groups/create.php:28
+#: groups/index.php:30
+#@ buddypress
+msgid "Create a Group"
+msgstr ""
+
+#: groups/create.php:28
+#: groups/index.php:30
+#@ buddypress
+msgid "Groups Directory"
+msgstr ""
+
+#: groups/create.php:52
+#: groups/single/admin.php:30
+#@ buddypress
+msgid "Group Name (required)"
+msgstr ""
+
+#: groups/create.php:57
+#: groups/single/admin.php:35
+#@ buddypress
+msgid "Group Description (required)"
+msgstr ""
+
+#: groups/create.php:82
+#: groups/single/admin.php:68
+#@ buddypress
+msgid "Enable discussion forum"
+msgstr ""
+
+#: groups/create.php:89
+#, php-format
+#@ buddypress
+msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: groups/create.php:96
+#: groups/single/admin.php:75
+#@ buddypress
+msgid "Privacy Options"
+msgstr ""
+
+#: groups/create.php:100
+#: groups/single/admin.php:78
+#@ buddypress
+msgid "This is a public group"
+msgstr ""
+
+#: groups/create.php:105
+#: groups/single/admin.php:82
+#@ buddypress
+msgid "Any site member can join this group."
+msgstr ""
+
+#: groups/create.php:106
+#: groups/create.php:118
+#: groups/single/admin.php:83
+#: groups/single/admin.php:97
+#@ buddypress
+msgid "This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: groups/create.php:107
+#: groups/single/admin.php:84
+#@ buddypress
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: groups/create.php:112
+#: groups/single/admin.php:90
+#@ buddypress
+msgid "This is a private group"
+msgstr ""
+
+#: groups/create.php:117
+#: groups/single/admin.php:96
+#@ buddypress
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: groups/create.php:119
+#: groups/create.php:130
+#: groups/single/admin.php:98
+#: groups/single/admin.php:111
+#@ buddypress
+msgid "Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: groups/create.php:123
+#: groups/single/admin.php:104
+#@ buddypress
+msgid "This is a hidden group"
+msgstr ""
+
+#: groups/create.php:128
+#: groups/single/admin.php:109
+#@ buddypress
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: groups/create.php:129
+#: groups/single/admin.php:110
+#@ buddypress
+msgid "This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: groups/create.php:133
+#: groups/single/admin.php:114
+#@ buddypress
+msgid "Group Invitations"
+msgstr ""
+
+#: groups/create.php:135
+#: groups/single/admin.php:116
+#@ buddypress
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: groups/create.php:140
+#: groups/single/admin.php:121
+#@ buddypress
+msgid "All group members"
+msgstr ""
+
+#: groups/create.php:145
+#: groups/single/admin.php:126
+#@ buddypress
+msgid "Group admins and mods only"
+msgstr ""
+
+#: groups/create.php:150
+#: groups/single/admin.php:131
+#@ buddypress
+msgid "Group admins only"
+msgstr ""
+
+#: groups/create.php:178
+#: groups/single/admin.php:151
+#@ buddypress
+msgid "Upload an image to use as an avatar for this group. The image will be shown on the main group page, and in search results."
+msgstr ""
+
+#: groups/create.php:182
+#: groups/single/admin.php:155
+#: members/single/profile/change-avatar.php:33
+#@ buddypress
+msgid "Upload Image"
+msgstr ""
+
+#: groups/create.php:186
+#@ buddypress
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: groups/create.php:193
+#@ buddypress
+msgid "Crop Group Avatar"
+msgstr ""
+
+#: groups/create.php:196
+#: groups/single/admin.php:177
+#: members/single/profile/change-avatar.php:50
+#@ buddypress
+msgid "Avatar to crop"
+msgstr ""
+
+#: groups/create.php:199
+#: groups/single/admin.php:180
+#: members/single/profile/change-avatar.php:53
+#@ buddypress
+msgid "Avatar preview"
+msgstr ""
+
+#: groups/create.php:203
+#: groups/single/admin.php:184
+#: members/single/profile/change-avatar.php:57
+#@ buddypress
+msgid "Crop Image"
+msgstr ""
+
+#: groups/create.php:242
+#: groups/single/send-invites.php:30
+#@ buddypress
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: groups/create.php:263
+#: groups/single/send-invites.php:50
+#@ buddypress
+msgid "Remove Invite"
+msgstr ""
+
+#: groups/create.php:281
+#: groups/single/send-invites.php:81
+#@ buddypress
+msgid "Once you have built up friend connections you will be able to invite others to your group. You can send invites any time in the future by selecting the \"Send Invites\" option when viewing your new group."
+msgstr ""
+
+#: groups/create.php:303
+#@ buddypress
+msgid "Back to Previous Step"
+msgstr ""
+
+#: groups/create.php:310
+#@ buddypress
+msgid "Next Step"
+msgstr ""
+
+#: groups/create.php:317
+#@ buddypress
+msgid "Create Group and Continue"
+msgstr ""
+
+#: groups/create.php:324
+#@ buddypress
+msgid "Finish"
+msgstr ""
+
+#: groups/groups-loop.php:44
+#: groups/single/group-header.php:25
+#, php-format
+#@ buddypress
+msgid "active %s"
+msgstr ""
+
+#: groups/groups-loop.php:85
+#@ buddypress
+msgid "There were no groups found."
+msgstr ""
+
+#: groups/index.php:48
+#, php-format
+#@ buddypress
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: groups/index.php:71
+#: members/single/groups.php:23
+#@ buddypress
+msgid "Most Members"
+msgstr ""
+
+#: groups/index.php:72
+#: members/single/groups.php:24
+#@ buddypress
+msgid "Newly Created"
+msgstr ""
+
+#: groups/single/activity.php:14
+#@ buddypress
+msgid "RSS Лента"
+msgstr ""
+
+#: groups/single/activity.php:20
+#@ buddypress
+msgid "Показать:"
+msgstr ""
+
+#: groups/single/admin.php:42
+#@ buddypress
+msgid "Notify group members of changes via email"
+msgstr ""
+
+#: groups/single/admin.php:43
+#: registration/register.php:288
+#@ buddypress
+msgid "Yes"
+msgstr ""
+
+#: groups/single/admin.php:44
+#: registration/register.php:290
+#@ buddypress
+msgid "No"
+msgstr ""
+
+#: groups/single/admin.php:49
+#: groups/single/admin.php:137
+#: groups/single/forum/edit.php:77
+#: groups/single/forum/edit.php:101
+#: members/single/profile/edit.php:156
+#: members/single/settings/general.php:88
+#: members/single/settings/notifications.php:71
+#@ buddypress
+msgid "Save Changes"
+msgstr ""
+
+#: groups/single/admin.php:161
+#@ buddypress
+msgid "If you'd like to remove the existing avatar but not upload a new one, please use the delete avatar button."
+msgstr ""
+
+#: groups/single/admin.php:163
+#: members/single/profile/change-avatar.php:39
+#@ buddypress
+msgid "Delete Avatar"
+msgstr ""
+
+#: groups/single/admin.php:173
+#@ buddypress
+msgid "Crop Avatar"
+msgstr ""
+
+#: groups/single/admin.php:211
+#@ buddypress
+msgid "Administrators"
+msgstr ""
+
+#: groups/single/admin.php:222
+#: groups/single/admin.php:255
+#, php-format
+#@ buddypress
+msgid "Profile picture of %s"
+msgstr ""
+
+#: groups/single/admin.php:230
+#: groups/single/admin.php:264
+#@ buddypress
+msgid "Demote to Member"
+msgstr ""
+
+#: groups/single/admin.php:246
+#@ buddypress
+msgid "Moderators"
+msgstr ""
+
+#: groups/single/admin.php:263
+#: groups/single/admin.php:327
+#@ buddypress
+msgid "Promote to Admin"
+msgstr ""
+
+#: groups/single/admin.php:279
+#@ buddypress
+msgid "Members"
+msgstr ""
+
+#: groups/single/admin.php:312
+#@ buddypress
+msgid "(banned)"
+msgstr ""
+
+#: groups/single/admin.php:321
+#@ buddypress
+msgid "Unban this member"
+msgstr ""
+
+#: groups/single/admin.php:321
+#@ buddypress
+msgid "Remove Ban"
+msgstr ""
+
+#: groups/single/admin.php:325
+#@ buddypress
+msgid "Kick and ban this member"
+msgstr ""
+
+#: groups/single/admin.php:325
+#@ buddypress
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: groups/single/admin.php:326
+#@ buddypress
+msgid "Promote to Mod"
+msgstr ""
+
+#: groups/single/admin.php:331
+#@ buddypress
+msgid "Remove this member"
+msgstr ""
+
+#: groups/single/admin.php:331
+#@ buddypress
+msgid "Remove from group"
+msgstr ""
+
+#: groups/single/admin.php:345
+#: groups/single/members.php:100
+#@ buddypress
+msgid "This group has no members."
+msgstr ""
+
+#: groups/single/admin.php:380
+#: members/single/friends/requests.php:54
+#: members/single/groups/invites.php:40
+#@ buddypress
+msgid "Accept"
+msgstr ""
+
+#: groups/single/admin.php:382
+#: members/single/friends/requests.php:55
+#: members/single/groups/invites.php:41
+#@ buddypress
+msgid "Reject"
+msgstr ""
+
+#: groups/single/admin.php:394
+#@ buddypress
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: groups/single/admin.php:411
+#@ buddypress
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: groups/single/admin.php:416
+#@ buddypress
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: groups/single/admin.php:422
+#@ buddypress
+msgid "Delete Group"
+msgstr ""
+
+#: groups/single/forum/edit.php:27
+#: groups/single/forum/topic.php:31
+#: groups/single/forum.php:40
+#@ buddypress
+msgid "Forum Directory"
+msgstr ""
+
+#: groups/single/forum/edit.php:35
+#@ buddypress
+msgid "Edit:"
+msgstr ""
+
+#: groups/single/forum/edit.php:119
+#@ buddypress
+msgid "This topic does not exist."
+msgstr ""
+
+#: groups/single/forum/topic.php:23
+#@ buddypress
+msgid "New Reply"
+msgstr ""
+
+#: groups/single/forum/topic.php:46
+#@ buddypress
+msgid "Topic tags:"
+msgstr ""
+
+#: groups/single/forum/topic.php:96
+#, php-format
+#@ buddypress
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: groups/single/forum/topic.php:106
+#@ buddypress
+msgid "Permanent link to this post"
+msgstr ""
+
+#: groups/single/forum/topic.php:150
+#@ buddypress
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: groups/single/forum/topic.php:155
+#@ buddypress
+msgid "Add a reply:"
+msgstr ""
+
+#: groups/single/forum/topic.php:160
+#@ buddypress
+msgid "Post Reply"
+msgstr ""
+
+#: groups/single/forum/topic.php:174
+#@ buddypress
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: groups/single/forum/topic.php:188
+#@ buddypress
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: groups/single/forum.php:82
+#@ buddypress
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: groups/single/forum.php:86
+#@ buddypress
+msgid "Post a New Topic:"
+msgstr ""
+
+#: groups/single/group-header.php:52
+#@ buddypress
+msgid "Group Admins"
+msgstr ""
+
+#: groups/single/group-header.php:68
+#@ buddypress
+msgid "Group Mods"
+msgstr ""
+
+#: groups/single/request-membership.php:19
+#, php-format
+#@ buddypress
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: groups/single/request-membership.php:23
+#@ buddypress
+msgid "Comments (optional)"
+msgstr ""
+
+#: groups/single/request-membership.php:30
+#@ buddypress
+msgid "Send Request"
+msgstr ""
+
+#: groups/single/send-invites.php:67
+#@ buddypress
+msgid "Send Invites"
+msgstr ""
+
+#: index.php:38
+#: loop.php:24
+#, php-format
+#@ supreme
+msgid "Published by [entry-author] on [entry-published] [entry-comments-link zero=\"Respond\" one=\"%1$s\" more=\"%1$s\"] [entry-edit-link] [entry-permalink]"
+msgstr ""
+
+#: index.php:49
+#: loop.php:35
+#: post.php:55
+#: singular.php:51
+#@ supreme
+msgid "Filed under: [entry-terms taxonomy=\"category\"] [entry-terms taxonomy=\"post_tag\" before=\"and Tagged: \"]"
+msgstr ""
+
+#: index.php:63
+#: loop.php:49
+#@ supreme
+msgid "No Entries"
+msgstr ""
+
+#: index.php:66
+#@ supreme
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: jigoshop/archive-product.php:36
+#@ jigoshop
+msgid "Search Results:"
+msgstr ""
+
+#: jigoshop/archive-product.php:38
+#: woocommerce/archive-product.php:16
+#@ jigoshop
+#@ woocommerce
+msgid "All Products"
+msgstr "Все продукты"
+
+#: jigoshop/loop-shop.php:62
+#: woocommerce/loop-shop.php:49
+#@ jigoshop
+#@ woocommerce
+msgid "No products found which match your selection."
+msgstr "Нет продуктов, которые соответствуют вашему выбору."
+
+#: jigoshop/single-product-reviews.php:50
+#, php-format
+#@ jigoshop
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:50
+#@ jigoshop
+msgid "out of 5"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:52
+#, php-format
+#@ jigoshop
+msgid "%s Review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: jigoshop/single-product-reviews.php:57
+#@ jigoshop
+msgid "Reviews"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:76
+#@ jigoshop
+msgid "Add Review"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:78
+#@ jigoshop
+msgid "Add a review"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:82
+#@ jigoshop
+msgid "Be the first to review "
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:84
+#@ jigoshop
+msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:102
+#@ jigoshop
+msgid "Submit Review"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:105
+#: library/classes/widget-bookmarks.php:181
+#@ jigoshop
+#@ hybrid-core
+msgid "Rating"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:106
+#@ jigoshop
+msgid "Rate..."
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:107
+#@ jigoshop
+msgid "Perfect"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:108
+#@ jigoshop
+msgid "Good"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:109
+#@ jigoshop
+msgid "Average"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:110
+#@ jigoshop
+msgid "Not that bad"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:111
+#@ jigoshop
+msgid "Very Poor"
+msgstr ""
+
+#: jigoshop/single-product-reviews.php:113
+#@ jigoshop
+msgctxt "noun"
+msgid "Your Review"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:37
+#@ hybrid-core
+msgid "SEO"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:70
+#@ hybrid-core
+msgid "Document Title:"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:76
+#@ hybrid-core
+msgid "Meta Description:"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:82
+#@ hybrid-core
+msgid "Meta Keywords:"
+msgstr ""
+
+#: library/admin/meta-box-post-template.php:36
+#@ hybrid-core
+msgid "Template"
+msgstr ""
+
+#: library/admin/meta-box-post-template.php:87
+#@ hybrid-core
+msgid "No templates exist for this post type."
+msgstr ""
+
+#: library/classes/widget-archives.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your archives."
+msgstr ""
+
+#: library/classes/widget-archives.php:44
+#: library/classes/widget-archives.php:141
+#: library/functions/context.php:446
+#: loop-meta.php:128
+#: page-template-sitemap.php:100
+#@ hybrid-core
+#@ supreme
+#@ rainbow
+msgid "Archives"
+msgstr ""
+
+#: library/classes/widget-archives.php:79
+#@ hybrid-core
+msgid "Select Year"
+msgstr ""
+
+#: library/classes/widget-archives.php:82
+#@ hybrid-core
+msgid "Select Month"
+msgstr ""
+
+#: library/classes/widget-archives.php:85
+#@ hybrid-core
+msgid "Select Week"
+msgstr ""
+
+#: library/classes/widget-archives.php:88
+#@ hybrid-core
+msgid "Select Day"
+msgstr ""
+
+#: library/classes/widget-archives.php:91
+#@ hybrid-core
+msgid "Select Post"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+#@ hybrid-core
+msgid "Daily"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+#@ hybrid-core
+msgid "Monthly"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+#@ hybrid-core
+msgid "Post By Post"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+#@ hybrid-core
+msgid "Weekly"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+#@ hybrid-core
+msgid "Yearly"
+msgstr ""
+
+#: library/classes/widget-archives.php:157
+#@ hybrid-core
+msgid "Custom"
+msgstr ""
+
+#: library/classes/widget-archives.php:157
+#@ hybrid-core
+msgid "HTML"
+msgstr ""
+
+#: library/classes/widget-archives.php:157
+#@ hybrid-core
+msgid "Option"
+msgstr ""
+
+#: library/classes/widget-archives.php:198
+#: library/classes/widget-authors.php:191
+#@ hybrid-core
+msgid "Show post count?"
+msgstr ""
+
+#: library/classes/widget-authors.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your author lists."
+msgstr ""
+
+#: library/classes/widget-authors.php:44
+#: library/classes/widget-authors.php:119
+#@ hybrid-core
+msgid "Authors"
+msgstr ""
+
+#: library/classes/widget-authors.php:136
+#: library/classes/widget-bookmarks.php:178
+#: library/classes/widget-bookmarks.php:180
+#: library/classes/widget-categories.php:162
+#: library/classes/widget-pages.php:148
+#: library/classes/widget-tags.php:167
+#@ hybrid-core
+msgid "Ascending"
+msgstr ""
+
+#: library/classes/widget-authors.php:136
+#: library/classes/widget-bookmarks.php:178
+#: library/classes/widget-bookmarks.php:180
+#: library/classes/widget-categories.php:162
+#: library/classes/widget-pages.php:148
+#: library/classes/widget-tags.php:167
+#@ hybrid-core
+msgid "Descending"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#@ hybrid-core
+msgid "Display Name"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-pages.php:149
+#@ hybrid-core
+msgid "ID"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#@ hybrid-core
+msgid "Nice Name"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#@ hybrid-core
+msgid "Post Count"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#@ hybrid-core
+msgid "Registered"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "URL"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#@ hybrid-core
+msgid "Login"
+msgstr ""
+
+#: library/classes/widget-authors.php:169
+#: library/classes/widget-categories.php:161
+#: library/classes/widget-tags.php:166
+#@ hybrid-core
+msgid "List"
+msgstr ""
+
+#: library/classes/widget-authors.php:169
+#: library/classes/widget-categories.php:161
+#@ hybrid-core
+msgid "None"
+msgstr ""
+
+#: library/classes/widget-authors.php:187
+#@ hybrid-core
+msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+msgstr ""
+
+#: library/classes/widget-authors.php:195
+#@ hybrid-core
+msgid "Exclude admin?"
+msgstr ""
+
+#: library/classes/widget-authors.php:199
+#@ hybrid-core
+msgid "Show full name?"
+msgstr ""
+
+#: library/classes/widget-authors.php:203
+#: library/classes/widget-categories.php:273
+#: library/classes/widget-tags.php:286
+#@ hybrid-core
+msgid "Hide empty?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your bookmarks (links)."
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:44
+#: library/classes/widget-bookmarks.php:85
+#: library/classes/widget-bookmarks.php:148
+#@ hybrid-core
+msgid "Bookmarks"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-tags.php:168
+#@ hybrid-core
+msgid "Count"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-pages.php:149
+#@ hybrid-core
+msgid "Slug"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Description"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Length"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Notes"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Owner"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-tags.php:167
+#@ hybrid-core
+msgid "Random"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Rel"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Target"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#@ hybrid-core
+msgid "Updated"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:289
+#@ hybrid-core
+msgid "Categorize?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:293
+#@ hybrid-core
+msgid "Show description?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:297
+#@ hybrid-core
+msgid "Hide invisible?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:301
+#@ hybrid-core
+msgid "Show rating?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:305
+#@ hybrid-core
+msgid "Show updated?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:309
+#@ hybrid-core
+msgid "Show images?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:313
+#@ hybrid-core
+msgid "Show name?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:317
+#@ hybrid-core
+msgid "Show private?"
+msgstr ""
+
+#: library/classes/widget-calendar.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your calendar."
+msgstr ""
+
+#: library/classes/widget-calendar.php:44
+#: library/classes/widget-calendar.php:99
+#@ hybrid-core
+msgid "Calendar"
+msgstr ""
+
+#: library/classes/widget-calendar.php:113
+#@ hybrid-core
+msgid "One-letter abbreviation?"
+msgstr ""
+
+#: library/classes/widget-categories.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your category links."
+msgstr ""
+
+#: library/classes/widget-categories.php:44
+#: library/classes/widget-categories.php:133
+#@ hybrid-core
+msgid "Categories"
+msgstr ""
+
+#: library/classes/widget-categories.php:163
+#@ hybrid-core
+msgid "Term Group"
+msgstr ""
+
+#: library/classes/widget-categories.php:164
+#@ hybrid-core
+msgid "Atom"
+msgstr ""
+
+#: library/classes/widget-categories.php:164
+#@ hybrid-core
+msgid "RDF"
+msgstr ""
+
+#: library/classes/widget-categories.php:164
+#@ hybrid-core
+msgid "RSS 2.0"
+msgstr ""
+
+#: library/classes/widget-categories.php:261
+#: library/classes/widget-pages.php:256
+#@ hybrid-core
+msgid "Hierarchical?"
+msgstr ""
+
+#: library/classes/widget-categories.php:265
+#@ hybrid-core
+msgid "Use description?"
+msgstr ""
+
+#: library/classes/widget-categories.php:269
+#@ hybrid-core
+msgid "Show count?"
+msgstr ""
+
+#: library/classes/widget-google_map.php:18
+#@ templatic
+msgid "Google Map widget displays the google map to user with their own address."
+msgstr ""
+
+#: library/classes/widget-google_map.php:30
+#@ templatic
+msgid "T &rarr; Google Map Widget"
+msgstr ""
+
+#: library/classes/widget-google_map.php:111
+#: library/classes/widget-pages.php:149
+#@ templatic
+#@ hybrid-core
+msgid "Title"
+msgstr ""
+
+#: library/classes/widget-google_map.php:113
+#@ templatic
+msgid "Address <small>(eg: 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106)</small>"
+msgstr ""
+
+#: library/classes/widget-google_map.php:116
+#@ templatic
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+#: library/classes/widget-google_map.php:120
+#@ templatic
+msgid "Map Zooming Factor"
+msgstr ""
+
+#: library/classes/widget-google_map.php:133
+#@ templatic
+msgid "Select Map Type"
+msgstr ""
+
+#: library/classes/widget-google_map.php:135
+#@ templatic
+msgid "Road Map"
+msgstr ""
+
+#: library/classes/widget-google_map.php:136
+#@ templatic
+msgid "Satellite Map"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:17
+#@ Templatic
+msgid "Custom Menu"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:65
+#: menu-header-horizontal.php:22
+#: menu-header-primary.php:22
+#: menu-header-secondary.php:22
+#: menu-primary.php:20
+#: menu-secondary.php:20
+#: menu-subsidiary.php:20
+#@ supreme
+msgid "Menu"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:118
+#, php-format
+#@ default
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:127
+#@ Templatic
+msgid "Select Menu:"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:139
+#@ dcjq-mega-menu
+msgid "Click"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:141
+#@ dcjq-mega-menu
+msgid "Hover"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:144
+#@ dcjq-mega-menu
+msgid "Number Items Per Row"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:161
+#@ dcjq-mega-menu
+msgid "Animation Effect:"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:163
+#@ templatic
+msgid "Fade In"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:164
+#@ templatic
+msgid "Slide Down"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:168
+#@ dcjq-mega-menu
+msgid "Animation Speed:"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:170
+#@ templatic
+msgid "No Animation"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:171
+#@ templatic
+msgid "Fast"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:172
+#@ templatic
+msgid "Normal"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:173
+#@ templatic
+msgid "Slow"
+msgstr ""
+
+#: library/classes/widget-mega_menu.php:179
+#@ dcjq-accordion
+msgid "Set Sub Menu To Full Width"
+msgstr ""
+
+#: library/classes/widget-nav-menu.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your menus."
+msgstr ""
+
+#: library/classes/widget-nav-menu.php:44
+#@ hybrid-core
+msgid "Navigation Menu"
+msgstr ""
+
+#: library/classes/widget-nav-menu.php:109
+#@ hybrid-core
+msgid "Navigation"
+msgstr ""
+
+#: library/classes/widget-pages.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your page links."
+msgstr ""
+
+#: library/classes/widget-pages.php:44
+#: library/classes/widget-pages.php:123
+#: page-template-sitemap.php:23
+#@ hybrid-core
+#@ supreme
+msgid "Pages"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+#@ hybrid-core
+msgid "Author"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+#@ hybrid-core
+msgid "Date"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+#@ hybrid-core
+msgid "Menu Order"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+#: library/classes/widget-pages.php:150
+#@ hybrid-core
+msgid "Modified"
+msgstr ""
+
+#: library/classes/widget-pages.php:150
+#@ hybrid-core
+msgid "Created"
+msgstr ""
+
+#: library/classes/widget-search.php:33
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your search form."
+msgstr ""
+
+#: library/classes/widget-search.php:45
+#: library/classes/widget-search.php:131
+#: searchform.php:15
+#@ hybrid-core
+#@ supreme
+msgid "Search"
+msgstr ""
+
+#: library/classes/widget-search.php:147
+#@ hybrid-core
+msgid "Search Label:"
+msgstr ""
+
+#: library/classes/widget-search.php:151
+#@ hybrid-core
+msgid "Search Text:"
+msgstr ""
+
+#: library/classes/widget-search.php:158
+#@ hybrid-core
+msgid "Search Submit:"
+msgstr ""
+
+#: library/classes/widget-search.php:163
+#@ hybrid-core
+msgid "Use theme's <code>searchform.php</code>?"
+msgstr ""
+
+#: library/classes/widget-tags.php:32
+#@ hybrid-core
+msgid "An advanced widget that gives you total control over the output of your tags."
+msgstr ""
+
+#: library/classes/widget-tags.php:44
+#: library/classes/widget-tags.php:137
+#@ hybrid-core
+msgid "Tags"
+msgstr ""
+
+#: library/classes/widget-tags.php:165
+#: library/extensions/breadcrumb-trail.php:399
+#: library/extensions/breadcrumb-trail.php:432
+#: library/extensions/breadcrumb-trail.php:447
+#: library/extensions/breadcrumb-trail.php:475
+#: library/functions/shortcodes.php:204
+#: library/functions/shortcodes.php:443
+#@ hybrid-core
+#@ breadcrumb-trail
+msgid "Edit"
+msgstr ""
+
+#: library/classes/widget-tags.php:166
+#@ hybrid-core
+msgid "Flat"
+msgstr ""
+
+#: library/classes/widget-tags.php:282
+#@ hybrid-core
+msgid "Pad counts?"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:45
+#@ breadcrumb-trail
+msgid "Главная"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:310
+#: library/functions/context.php:423
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "g:i a"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:313
+#, php-format
+#@ breadcrumb-trail
+msgid "Minute %1$s"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:313
+#: library/functions/context.php:426
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "i"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:316
+#: library/functions/context.php:429
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "g a"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:327
+#: library/extensions/breadcrumb-trail.php:333
+#: library/extensions/breadcrumb-trail.php:338
+#: library/extensions/breadcrumb-trail.php:343
+#: library/extensions/breadcrumb-trail.php:531
+#: library/functions/context.php:435
+#: library/functions/context.php:441
+#: library/functions/core-seo.php:90
+#: library/functions/shortcodes.php:70
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "Y"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:328
+#: library/extensions/breadcrumb-trail.php:339
+#: library/extensions/breadcrumb-trail.php:535
+#@ breadcrumb-trail
+msgid "F"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:329
+#: library/extensions/breadcrumb-trail.php:539
+#@ breadcrumb-trail
+msgid "d"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:334
+#, php-format
+#@ breadcrumb-trail
+msgid "Week %1$s"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:334
+#: library/functions/context.php:435
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "W"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:351
+#, php-format
+#@ breadcrumb-trail
+msgid "Результаты поиска для &quot;%1$s&quot;"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:355
+#: library/functions/context.php:456
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "404 Not Found"
+msgstr "404 Не Найдено"
+
+#: library/extensions/breadcrumb-trail.php:424
+#@ breadcrumb-trail
+msgid "Split"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:535
+#: library/functions/core-seo.php:86
+#@ breadcrumb-trail
+#@ hybrid-core
+msgid "F Y"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:539
+#@ breadcrumb-trail
+msgid "F j, Y"
+msgstr ""
+
+#: library/extensions/custom-field-series.php:86
+#@ custom-field-series
+msgid "Articles in this series"
+msgstr ""
+
+#: library/extensions/custom-field-series.php:212
+#@ custom-field-series
+msgid "Series"
+msgstr ""
+
+#: library/extensions/post-stylesheets.php:255
+#@ post-stylesheets
+msgid "Stylesheet"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:404
+#@ theme-layouts
+msgid "Layout is a theme-specific structure for the single view of the post."
+msgstr ""
+
+#: library/functions/comments.php:182
+#@ hybrid-core
+msgid "*"
+msgstr ""
+
+#: library/functions/comments.php:195
+#@ hybrid-core
+msgid "Comment"
+msgstr ""
+
+#: library/functions/comments.php:196
+#, php-format
+#@ hybrid-core
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: library/functions/comments.php:197
+#, php-format
+#@ hybrid-core
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: library/functions/comments.php:197
+#@ hybrid-core
+msgid "Log out of this account"
+msgstr ""
+
+#: library/functions/comments.php:197
+#@ hybrid-core
+msgid "Log out &raquo;"
+msgstr ""
+
+#: library/functions/comments.php:202
+#@ hybrid-core
+msgid "Leave a Reply"
+msgstr ""
+
+#: library/functions/comments.php:203
+#, php-format
+#@ hybrid-core
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: library/functions/comments.php:204
+#@ hybrid-core
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: library/functions/context.php:423
+#: library/functions/context.php:429
+#: library/functions/context.php:432
+#: library/functions/context.php:438
+#: library/functions/context.php:441
+#, php-format
+#@ hybrid-core
+msgid "Archive for %1$s"
+msgstr ""
+
+#: library/functions/context.php:426
+#, php-format
+#@ hybrid-core
+msgid "Archive for minute %1$s"
+msgstr ""
+
+#: library/functions/context.php:432
+#@ hybrid-core
+msgid "F jS, Y"
+msgstr ""
+
+#: library/functions/context.php:435
+#, php-format
+#@ hybrid-core
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+#: library/functions/context.php:452
+#, php-format
+#@ hybrid-core
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: library/functions/context.php:460
+#, php-format
+#@ hybrid-core
+msgid "%1$s Page %2$s"
+msgstr ""
+
+#: library/functions/core-seo.php:93
+#, php-format
+#@ hybrid-core
+msgid "Copyright (c) %1$s"
+msgstr ""
+
+#: library/functions/core-seo.php:112
+#: library/functions/shortcodes.php:218
+#: library/functions/shortcodes.php:373
+#@ hybrid-core
+msgid "l, F jS, Y, g:i a"
+msgstr ""
+
+#: library/functions/customize.php:63
+#: library/functions/customize.php:88
+#@ hybrid-core
+msgid "Footer"
+msgstr ""
+
+#: library/functions/deprecated.php:572
+#, php-format
+#@ hybrid-core
+msgid "<code>%1$s</code> &mdash; This function has been removed or replaced by another function."
+msgstr ""
+
+#: library/functions/menus.php:38
+#@ hybrid-core
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+#: library/functions/menus.php:42
+#@ hybrid-core
+msgctxt "nav menu location"
+msgid "Secondary"
+msgstr ""
+
+#: library/functions/menus.php:46
+#@ hybrid-core
+msgctxt "nav menu location"
+msgid "Subsidiary"
+msgstr ""
+
+#: library/functions/settings.php:76
+#: library/functions/settings.php:80
+#@ hybrid-core
+msgid "Copyright &#169; [the-year] [site-link]."
+msgstr ""
+
+#: library/functions/settings.php:76
+#@ hybrid-core
+msgid "Powered by [wp-link], [theme-link], and [child-link]."
+msgstr ""
+
+#: library/functions/settings.php:80
+#@ hybrid-core
+msgid "Powered by [wp-link] and [theme-link]."
+msgstr ""
+
+#: library/functions/shortcodes.php:93
+#@ hybrid-core
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr ""
+
+#: library/functions/shortcodes.php:93
+#@ hybrid-core
+msgid "WordPress"
+msgstr ""
+
+#: library/functions/shortcodes.php:106
+#, php-format
+#@ hybrid-core
+msgid "%s WordPress Theme"
+msgstr ""
+
+#: library/functions/shortcodes.php:134
+#@ hybrid-core
+msgid "Log out"
+msgstr ""
+
+#: library/functions/shortcodes.php:136
+#@ hybrid-core
+msgid "Log in"
+msgstr ""
+
+#: library/functions/shortcodes.php:151
+#, php-format
+#@ hybrid-core
+msgid "This page loaded in %1$s seconds with %2$s database queries."
+msgstr ""
+
+#: library/functions/shortcodes.php:204
+#: library/functions/shortcodes.php:443
+#, php-format
+#@ hybrid-core
+msgid "Edit %1$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:234
+#@ hybrid-core
+msgid "Leave a response"
+msgstr ""
+
+#: library/functions/shortcodes.php:234
+#, php-format
+#@ hybrid-core
+msgid "%1$s Response"
+msgstr ""
+
+#: library/functions/shortcodes.php:234
+#, php-format
+#@ hybrid-core
+msgid "%1$s Responses"
+msgstr ""
+
+#: library/functions/shortcodes.php:241
+#: library/functions/shortcodes.php:243
+#: library/functions/shortcodes.php:245
+#, php-format
+#@ hybrid-core
+msgid "Comment on %1$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:305
+#@ hybrid-core
+msgid "(Untitled)"
+msgstr ""
+
+#: library/functions/shortcodes.php:321
+#@ hybrid-core
+msgid "Shortlink"
+msgstr ""
+
+#: library/functions/shortcodes.php:422
+#, php-format
+#@ hybrid-core
+msgid "Permalink to comment %1$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:463
+#@ hybrid-core
+msgid "Log in to reply."
+msgstr ""
+
+#: library/functions/sidebars.php:81
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+#: library/functions/sidebars.php:82
+#@ hybrid-core
+msgid "The main (primary) widget area, most often used as a sidebar."
+msgstr ""
+
+#: library/functions/sidebars.php:85
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "Secondary"
+msgstr ""
+
+#: library/functions/sidebars.php:86
+#@ hybrid-core
+msgid "The second most important widget area, most often used as a secondary sidebar."
+msgstr ""
+
+#: library/functions/sidebars.php:89
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr ""
+
+#: library/functions/sidebars.php:90
+#@ hybrid-core
+msgid "A widget area loaded in the footer of the site."
+msgstr ""
+
+#: library/functions/sidebars.php:93
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "Header"
+msgstr ""
+
+#: library/functions/sidebars.php:94
+#@ hybrid-core
+msgid "Displayed within the site's header area."
+msgstr ""
+
+#: library/functions/sidebars.php:97
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "Before Content"
+msgstr ""
+
+#: library/functions/sidebars.php:98
+#@ hybrid-core
+msgid "Loaded before the page's main content area."
+msgstr ""
+
+#: library/functions/sidebars.php:101
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "After Content"
+msgstr ""
+
+#: library/functions/sidebars.php:102
+#@ hybrid-core
+msgid "Loaded after the page's main content area."
+msgstr ""
+
+#: library/functions/sidebars.php:105
+#@ hybrid-core
+msgctxt "sidebar"
+msgid "After Singular"
+msgstr ""
+
+#: library/functions/sidebars.php:106
+#@ hybrid-core
+msgid "Loaded on singular post (page, attachment, etc.) views before the comments area."
+msgstr ""
+
+#: loop-entry-author.php:17
+#@ supreme
+msgid "Published by [entry-author]"
+msgstr ""
+
+#: loop-error.php:16
+#: loop.php:52
+#@ supreme
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop-meta.php:91
+#, php-format
+#@ supreme
+msgid "You are browsing the search results for \"%s\""
+msgstr ""
+
+#: loop-meta.php:100
+#@ supreme
+msgid "Archives by date"
+msgstr ""
+
+#: loop-meta.php:104
+#@ supreme
+msgid "You are browsing the site archives by date."
+msgstr ""
+
+#: loop-meta.php:132
+#@ supreme
+msgid "You are browsing the site archives."
+msgstr ""
+
+#: loop-nav.php:16
+#@ supreme
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr ""
+
+#: loop-nav.php:23
+#: loop-nav.php:27
+#: loop-nav.php:29
+#@ supreme
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: loop-nav.php:24
+#: loop-nav.php:27
+#@ supreme
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop-nav.php:29
+#@ supreme
+msgid "Next &rarr;"
+msgstr ""
+
+#: members/index.php:30
+#@ buddypress
+msgid "Members Directory"
+msgstr ""
+
+#: members/index.php:69
+#: members/single/friends.php:23
+#@ buddypress
+msgid "Newest Registered"
+msgstr ""
+
+#: members/members-loop.php:108
+#@ buddypress
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: members/single/friends/requests.php:85
+#@ buddypress
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: members/single/groups/invites.php:30
+#, php-format
+#@ buddypress
+msgid "%s members"
+msgstr ""
+
+#: members/single/groups/invites.php:52
+#@ buddypress
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: members/single/messages/compose.php:19
+#@ buddypress
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: members/single/messages/compose.php:30
+#@ buddypress
+msgid "This is a notice to all users."
+msgstr ""
+
+#: members/single/messages/compose.php:35
+#: page-template-contact.php:148
+#@ buddypress
+#@ templatic
+msgid "Subject"
+msgstr ""
+
+#: members/single/messages/compose.php:40
+#: page-template-contact.php:155
+#@ buddypress
+#@ templatic
+msgid "Message"
+msgstr ""
+
+#: members/single/messages/compose.php:49
+#@ buddypress
+msgid "Send Message"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:49
+#@ buddypress
+msgid "From:"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:56
+#@ buddypress
+msgid "To:"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:66
+#@ buddypress
+msgid "View Message"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:73
+#: members/single/messages/notices-loop.php:59
+#: members/single/messages/single.php:38
+#@ buddypress
+msgid "Delete Message"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:102
+#@ buddypress
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: members/single/messages/notices-loop.php:48
+#@ buddypress
+msgid "Sent:"
+msgstr ""
+
+#: members/single/messages/notices-loop.php:76
+#@ buddypress
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: members/single/messages/single.php:28
+#@ buddypress
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: members/single/messages/single.php:32
+#, php-format
+#@ buddypress
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: members/single/messages/single.php:89
+#@ buddypress
+msgid "Send a Reply"
+msgstr ""
+
+#: members/single/messages/single.php:105
+#@ buddypress
+msgid "Send Reply"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:16
+#@ buddypress
+msgid "Change Avatar"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:22
+#@ buddypress
+msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
+msgstr ""
+
+#: members/single/profile/change-avatar.php:29
+#@ buddypress
+msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgstr ""
+
+#: members/single/profile/change-avatar.php:38
+#@ buddypress
+msgid "If you'd like to delete your current avatar but not upload a new one, please use the delete avatar button."
+msgstr ""
+
+#: members/single/profile/change-avatar.php:39
+#@ buddypress
+msgid "Delete My Avatar"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:46
+#@ buddypress
+msgid "Crop Your New Avatar"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:76
+#@ buddypress
+msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
+msgstr ""
+
+#: members/single/profile/edit.php:23
+#, php-format
+#@ buddypress
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: members/single/profile/edit.php:38
+#: members/single/profile/edit.php:48
+#: members/single/profile/edit.php:58
+#: members/single/profile/edit.php:70
+#: members/single/profile/edit.php:92
+#: members/single/profile/edit.php:110
+#: members/single/profile/edit.php:122
+#: registration/register.php:69
+#: registration/register.php:75
+#: registration/register.php:81
+#: registration/register.php:87
+#: registration/register.php:117
+#: registration/register.php:128
+#: registration/register.php:138
+#: registration/register.php:150
+#: registration/register.php:164
+#: registration/register.php:181
+#: registration/register.php:194
+#: registration/register.php:265
+#: registration/register.php:280
+#@ buddypress
+msgid "(required)"
+msgstr ""
+
+#: members/single/profile/edit.php:80
+#: members/single/profile/edit.php:98
+#: registration/register.php:169
+#@ buddypress
+msgid "Clear"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:22
+#, php-format
+#@ buddypress
+msgid "%s's Profile"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:38
+#@ buddypress
+msgid "About Me"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:56
+#@ buddypress
+msgid "Jabber"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:65
+#@ buddypress
+msgid "AOL Messenger"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:74
+#@ buddypress
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: members/single/settings/delete-account.php:53
+#@ buddypress
+msgid "Delete Account"
+msgstr ""
+
+#: members/single/settings/delete-account.php:58
+#@ buddypress
+msgid "WARNING: Deleting your account will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: members/single/settings/delete-account.php:63
+#@ buddypress
+msgid "I understand the consequences of deleting my account."
+msgstr ""
+
+#: members/single/settings/delete-account.php:69
+#@ buddypress
+msgid "Delete My Account"
+msgstr ""
+
+#: members/single/settings/general.php:54
+#@ buddypress
+msgid "General Settings"
+msgstr ""
+
+#: members/single/settings/general.php:61
+#@ buddypress
+msgid "Current Password <span>(required to update email or change current password)</span>"
+msgstr ""
+
+#: members/single/settings/general.php:65
+#@ buddypress
+msgid "Password Lost and Found"
+msgstr ""
+
+#: members/single/settings/general.php:65
+#@ buddypress
+msgid "Lost your password?"
+msgstr ""
+
+#: members/single/settings/general.php:69
+#@ buddypress
+msgid "Account Email"
+msgstr ""
+
+#: members/single/settings/general.php:74
+#@ buddypress
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: members/single/settings/general.php:82
+#@ buddypress
+msgid "Repeat New Password"
+msgstr ""
+
+#: members/single/settings/notifications.php:59
+#@ buddypress
+msgid "Email Notification"
+msgstr ""
+
+#: members/single/settings/notifications.php:64
+#@ buddypress
+msgid "Send a notification by email when:"
+msgstr ""
+
+#: page-template-advanced_search.php:30
+#@ templatic
+msgid "select category"
+msgstr ""
+
+#: page-template-archives.php:50
+#@ templatic
+msgid "by"
+msgstr ""
+
+#: page-template-archives.php:52
+#@ templatic
+msgid "on"
+msgstr ""
+
+#: page-template-archives.php:52
+#@ default
+msgid "M j, Y"
+msgstr ""
+
+#: page-template-archives.php:52
+#@ templatic
+msgid "1 Comment"
+msgstr ""
+
+#: page-template-archives.php:52
+#@ templatic
+msgid "Comments Closed"
+msgstr ""
+
+#: page-template-contact.php:243
+#@ templatic
+msgid "Please enter your name"
+msgstr ""
+
+#: page-template-contact.php:278
+#@ templatic
+msgid "Please enter valid email address"
+msgstr ""
+
+#: page-template-contact.php:297
+#@ templatic
+msgid "Please enter a subject"
+msgstr ""
+
+#: page-template-contact.php:314
+#@ templatic
+msgid "Please enter message"
+msgstr ""
+
+#: page-template-sitemap.php:43
+#: page-template-sitemap.php:76
+#@ templatic
+msgid "0 comment"
+msgstr ""
+
+#: page-template-sitemap.php:43
+#: page-template-sitemap.php:76
+#@ templatic
+msgid "1 comment"
+msgstr ""
+
+#: page-template-sitemap.php:43
+#: page-template-sitemap.php:76
+#@ templatic
+msgid "% comments"
+msgstr ""
+
+#: page-template-sitemap.php:52
+#@ rainbow
+msgid "Post Categories"
+msgstr ""
+
+#: post.php:38
+#: singular.php:38
+#, php-format
+#@ supreme
+msgid "[entry-author] [entry-published] [entry-comments-link zero=\"Respond\" one=\"%1$s\" more=\"%1$s\"] [entry-edit-link]"
+msgstr ""
+
+#: registration/activate.php:33
+#@ buddypress
+msgid "Account Activated"
+msgstr ""
+
+#: registration/activate.php:40
+#@ buddypress
+msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgstr ""
+
+#: registration/activate.php:42
+#@ buddypress
+msgid "Your account was activated successfully! You can now log in with the username and password you provided when you signed up."
+msgstr ""
+
+#: registration/activate.php:49
+#@ buddypress
+msgid "Activate Your Account"
+msgstr ""
+
+#: registration/activate.php:55
+#@ buddypress
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: registration/activate.php:60
+#@ buddypress
+msgid "Activation Key:"
+msgstr ""
+
+#: registration/activate.php:65
+#@ buddypress
+msgid "Activate"
+msgstr ""
+
+#: registration/register.php:35
+#@ buddypress
+msgid "Create An Account"
+msgstr ""
+
+#: registration/register.php:47
+#@ buddypress
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: registration/register.php:58
+#@ buddypress
+msgid "Registering for this site is easy, just fill in the fields below and we'll get a new account set up for you in no time."
+msgstr ""
+
+#: registration/register.php:66
+#@ buddypress
+msgid "Account Details"
+msgstr ""
+
+#: registration/register.php:75
+#@ buddypress
+msgid "Email Address"
+msgstr ""
+
+#: registration/register.php:81
+#@ buddypress
+msgid "Choose a Password"
+msgstr ""
+
+#: registration/register.php:87
+#@ buddypress
+msgid "Confirm Password"
+msgstr ""
+
+#: registration/register.php:104
+#@ buddypress
+msgid "Profile Details"
+msgstr ""
+
+#: registration/register.php:216
+#: registration/register.php:226
+#, php-format
+#@ buddypress
+msgid "This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: registration/register.php:220
+#@ buddypress
+msgid "Who can see this field?"
+msgstr ""
+
+#: registration/register.php:222
+#@ buddypress
+msgid "Close"
+msgstr ""
+
+#: registration/register.php:258
+#@ buddypress
+msgid "Blog Details"
+msgstr ""
+
+#: registration/register.php:260
+#@ buddypress
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: registration/register.php:265
+#@ buddypress
+msgid "Blog URL"
+msgstr ""
+
+#: registration/register.php:271
+#@ buddypress
+msgid "For example: http://your-blog-url-goes-here/"
+msgstr ""
+
+#: registration/register.php:280
+#@ buddypress
+msgid "Site Title"
+msgstr ""
+
+#: registration/register.php:286
+#@ buddypress
+msgid "I would like my site to appear in search engines, and in public listings around this network."
+msgstr ""
+
+#: registration/register.php:306
+#@ buddypress
+msgid "Complete Sign Up"
+msgstr ""
+
+#: registration/register.php:317
+#@ buddypress
+msgid "Sign Up Complete!"
+msgstr ""
+
+#: registration/register.php:324
+#@ buddypress
+msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgstr ""
+
+#: registration/register.php:326
+#@ buddypress
+msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr ""
+
+#: searchform.php:14
+#@ supreme
+msgid "Search this site..."
+msgstr ""
+
+#: taxonomy-topic-tag-edit.php:27
+#: taxonomy-topic-tag.php:30
+#, php-format
+#@ bbpress
+msgid "Topic Tag: %s"
+msgstr ""
+
+#: templatic_customizer.php:8
+#@ default
+msgid "You do not have sufficient permissions to access this section."
+msgstr ""
+
+#: templatic_customizer.php:112
+#@ templatic
+msgid " Upload image for logo"
+msgstr ""
+
+#: templatic_customizer.php:123
+#@ templatic
+msgid "Display excerpts on archive pages"
+msgstr ""
+
+#: templatic_customizer.php:129
+#@ templatic
+msgid "Display excerpts on Search Result Pages"
+msgstr ""
+
+#: templatic_customizer.php:135
+#@ templatic
+msgid "Show author biography on posts"
+msgstr ""
+
+#: templatic_customizer.php:141
+#@ templatic
+msgid "Show author biography on pages"
+msgstr ""
+
+#: templatic_customizer.php:147
+#@ templatic
+msgid "Global Layout"
+msgstr ""
+
+#: templatic_customizer.php:159
+#@ templatic
+msgid "Jigoshop Layout"
+msgstr ""
+
+#: templatic_customizer.php:171
+#@ templatic
+msgid "WooCommerce Layout"
+msgstr ""
+

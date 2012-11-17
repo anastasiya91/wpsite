@@ -49,15 +49,7 @@
 									<?php $about_page_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'О нас'");?>
 									<a href="<?php echo get_page_link($about_page_id);?>"><?php _e('О нас','templatic'); ?></a>
 								</li>
-								<li>
-									<?php $primary_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'Мой аккаунт'");?>
-									<a href="<?php echo get_page_link($primary_id);?>"><?php _e('Мой аккаунт','templatic'); ?></a>
-									<ul class="sub-menu">
-											<?php $primary_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts where post_title like 'Мой аккаунт'");
-											wp_list_pages("title_li=&post_type=page&child_of=$primary_id");
-											//wp_list_pages();?>
-									</ul>
-								</li>
+								
 							</ul>
 						</div>	
 					</div>

@@ -63,7 +63,7 @@ function supreme_theme_meta_box() { ?>
 
 		<tr>
 			<th>
-				<label for="<?php echo hybrid_settings_field_id( 'supreme_logo_url' ); ?>"><?php _e( 'Logo:', 'supreme' ); ?></label>
+				<label for="<?php echo hybrid_settings_field_id( 'supreme_logo_url' ); ?>"><?php _e( 'Логотип:', 'supreme' ); ?></label>
 			</th>
 			<td>
 				<input type="text" id="<?php echo hybrid_settings_field_id( 'supreme_logo_url' ); ?>" name="<?php echo hybrid_settings_field_name( 'supreme_logo_url' ); ?>" value="<?php echo esc_attr( hybrid_get_setting( 'supreme_logo_url' ) ); ?>" />
@@ -79,7 +79,7 @@ function supreme_theme_meta_box() { ?>
 		
 		<!-- Show Site Description -->
 		<tr>
-			<th><label for="<?php echo hybrid_settings_field_id( 'supreme_site_description' ); ?>"><?php _e( 'Site Description:', 'supreme' ); ?></label></th>
+			<th><label for="<?php echo hybrid_settings_field_id( 'supreme_site_description' ); ?>"><?php _e( 'Описание сайта:', 'supreme' ); ?></label></th>
 			<td>
 				<input class="checkbox" type="checkbox" <?php checked( hybrid_get_setting( 'supreme_site_description' ), true ); ?> id="<?php echo esc_attr( hybrid_settings_field_id( 'supreme_site_description' ) ); ?>" name="<?php echo esc_attr( hybrid_settings_field_name( 'supreme_site_description' ) ); ?>" />
 				<label for="<?php echo esc_attr( hybrid_settings_field_id( 'supreme_site_description' ) ); ?>"><?php _e( 'Hide Site Description', 'supreme' ); ?></label>
@@ -93,7 +93,7 @@ function supreme_theme_meta_box() { ?>
 			<td>
 				<!-- Archive Page Display Excerpt -->
 				<p>
-					<input class="checkbox" type="checkbox" <?php checked( hybrid_get_setting( 'supreme_archive_display_excerpt' ), true ); ?> id="<?php echo esc_attr( hybrid_settings_field_id( 'supreme_archive_display_excerpt' ) ); ?>" name="<?php echo esc_attr( hybrid_settings_field_name( 'supreme_archive_display_excerpt' ) ); ?>" /> <label for="<?php echo esc_attr( hybrid_settings_field_id( 'supreme_archive_display_excerpt' ) ); ?>"><?php _e( 'Display excerpts on archive pages.', 'supreme' ); ?></label>
+					<input class="checkbox" type="checkbox" <?php checked( hybrid_get_setting( 'supreme_archive_display_excerpt' ), true ); ?> id="<?php echo esc_attr( hybrid_settings_field_id( 'supreme_archive_display_excerpt' ) ); ?>" name="<?php echo esc_attr( hybrid_settings_field_name( 'supreme_archive_display_excerpt' ) ); ?>" /> <label for="<?php echo esc_attr( hybrid_settings_field_id( 'supreme_archive_display_excerpt' ) ); ?>"><?php _e( 'Отображение выдержек на страницах архива.', 'supreme' ); ?></label>
 				</p>
 				
 				<!-- Front Page Display Excerpt -->

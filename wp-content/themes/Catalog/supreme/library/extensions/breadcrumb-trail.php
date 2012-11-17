@@ -39,14 +39,15 @@ function breadcrumb_trail( $args = array() ) {
 	/* Set up the default arguments for the breadcrumb. */
 	$defaults = array(
 		'separator' => '/',
-		'before' => __( 'Browse:', 'breadcrumb-trail' ),
+		// 'before' => __( 'Просмотреть:', 'breadcrumb-trail' ),
 		'after' => false,
 		'front_page' => true,
-		'show_home' => __( 'Home', 'breadcrumb-trail' ),
+		'show_home' => __( 'Главная', 'breadcrumb-trail' ),
 		'echo' => true
 	);
 
 	/* Allow singular post views to have a taxonomy's terms prefixing the trail. */
+       
 	if ( is_singular() ) {
 		$post = get_queried_object();
 		$defaults["singular_{$post->post_type}_taxonomy"] = false;
@@ -141,6 +142,16 @@ function breadcrumb_trail_get_items( $args = array() ) {
 	}
 
 	/* If viewing a singular post (page, attachment, etc.). */
+         //мой
+        if (is_shop()){
+        $trail[] = '<a href="' . home_url() . '/shop/" title="Женская одежда из Италии" rel="home" class="trail-begin">Магазин</a>';
+        if (is_category()){
+            $path = get_option( 'category_base' );
+            
+        }
+        }
+        
+        // конец моего
 	elseif ( is_singular() ) {
 
 		/* Get singular post variables needed. */
@@ -222,16 +233,16 @@ function breadcrumb_trail_get_items( $args = array() ) {
 	elseif ( is_archive() ) {
 
 		/* If viewing a taxonomy term archive. */
-		if ( is_tax() || is_category() || is_tag() ) {
+		if ( is_tax() /*|| is_category() */|| is_tag() ) {
 
 			/* Get some taxonomy and term variables. */
 			$term = get_queried_object();
 			$taxonomy = get_taxonomy( $term->taxonomy );
 
 			/* Get the path to the term archive. Use this to determine if a page is present with it. */
-			if ( is_category() )
-				$path = get_option( 'category_base' );
-			elseif ( is_tag() )
+			/*if ( is_category() )
+				$path = get_option( 'category_base' );*/
+			/*else*/if ( is_tag() )
 				$path = get_option( 'tag_base' );
 			else {
 				if ( $taxonomy->rewrite['with_front'] && $wp_rewrite->front )
@@ -335,9 +346,10 @@ function breadcrumb_trail_get_items( $args = array() ) {
 	}
 
 	/* If viewing search results. */
-	elseif ( is_search() )
-		$trail[] = sprintf( __( 'Search results for &quot;%1$s&quot;', 'breadcrumb-trail' ), esc_attr( get_search_query() ) );
-
+	elseif ( is_search()){
+                $args[] = 'Результаты поиска';
+ 		$trail[] = sprintf( __( 'Результаты поиска для &quot;%1$s&quot;', 'breadcrumb-trail' ), esc_attr( get_search_query() ) );
+}
 	/* If viewing a 404 error page. */
 	elseif ( is_404() )
 		$trail[] = __( '404 Not Found', 'breadcrumb-trail' );

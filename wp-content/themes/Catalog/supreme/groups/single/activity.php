@@ -11,13 +11,13 @@
 
 <div class="item-list-tabs bp-sub-tabs no-ajax" id="subnav" role="navigation">
 	<ul>
-		<li class="feed"><a href="<?php bp_group_activity_feed_link() ?>" title="<?php _e( 'RSS Feed', 'buddypress' ); ?>"><?php _e( 'RSS', 'buddypress' ) ?></a></li>
+		<li class="feed"><a href="<?php bp_group_activity_feed_link() ?>" title="<?php _e( 'RSS Лента', 'buddypress' ); ?>"><?php _e( 'RSS', 'buddypress' ) ?></a></li>
 
 		<?php do_action( 'bp_group_activity_syndication_options' ) ?>
 
 		<li id="activity-filter-select" class="last">
 		
-			<label for="activity-filter-by"><?php _e( 'Show:', 'buddypress' ); ?></label>
+			<label for="activity-filter-by"><?php _e( 'Показать:', 'buddypress' ); ?></label>
 			
 			<select id="activity-filter-by">
 				<option value="-1"><?php _e( 'Everything', 'buddypress' ) ?></option>
